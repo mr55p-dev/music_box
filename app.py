@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 import subprocess
 from multiprocessing import Process
 
@@ -11,10 +11,7 @@ def playTheMusic():
 
 @app.route('/')
 def rootPage():
-    x = ""
-    with open('./templates/index.html', 'r') as f:
-        x = f.read()
-    return x
+    return(render_template('index.html'))
     # return "This is a page"
 
 
