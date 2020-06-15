@@ -16,9 +16,9 @@ def rootPage():
     # return "This is a page"
 
 
-@app.route('/play')
+@app.route('/play/')
 def play():
-    p = Process(target=playTheMusic)
+    playTheMusic()
     return redirect(url_for('rootPage'))
 
 if __name__ == "__main__":
