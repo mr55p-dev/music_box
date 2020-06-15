@@ -4,15 +4,15 @@ app=Flask(__name__)
 
 @app.route('/')
 def rootPage():
-    # self.x = ""
-    # with open('./web/index.html', 'r') as self.f:
-    #     self.x = self.f.read()
-    # return self.x
-    return "This is a page"
+    x = ""
+    with open('./web/index.html', 'r') as f:
+        x = f.read()
+    return x
+    # return "This is a page"
 
 
 @app.route('/play')
-def play(self):
+def play():
     subprocess.call(['ffplay', '-nodisp','./audio/file.mp3'])
     return "Playing music"
 
