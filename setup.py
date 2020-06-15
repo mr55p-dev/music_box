@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-requires = ["flask"]
+requires = ["flask","python-dotenv"]
 
 setup(
     name="musicBoxServer",
