@@ -5,7 +5,9 @@ from multiprocessing import Process
 app=Flask(__name__)
 
 def playTheMusic():
-    subprocess.call(['ffplay', '-nodisp', '-autoexit','./audio/file.mp3'])
+    output = subprocess.run(['ffplay', '-nodisp', '-autoexit','./audio/file.mp3'])
+    output.check_returncode()
+    return output.returncode
 
 @app.route('/')
 def rootPage():
@@ -19,8 +21,9 @@ def rootPage():
 @app.route('/play')
 def play():
     p = Process(target=playTheMusic)
-    p.start()
-    return "Playing music"
+    if not p.start():
+        return "Playing music"
+    return "something went wrong"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
