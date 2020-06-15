@@ -1,6 +1,7 @@
 from flask import Flask
 import subprocess
-import thread
+from multiprocessing import Process
+
 app=Flask(__name__)
 
 def playTheMusic():
@@ -17,7 +18,8 @@ def rootPage():
 
 @app.route('/play')
 def play():
-    thread.start_new_thread(playTheMusic)
+    p = Process(target=playTheMusic)
+    p.start()
     return "Playing music"
 
 if __name__ == "__main__":
