@@ -4,10 +4,11 @@ app=Flask(__name__)
 
 @app.route('/')
 def rootPage(self):
-    self.x = ""
-    with open('./web/index.html', 'r') as self.f:
-        self.x = self.f.read()
-    return self.x
+    # self.x = ""
+    # with open('./web/index.html', 'r') as self.f:
+    #     self.x = self.f.read()
+    # return self.x
+    return "This is a page"
 
 
 @app.route('/play')
