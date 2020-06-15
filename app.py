@@ -12,7 +12,7 @@ def playTheMusic():
 @app.route('/')
 def rootPage():
     x = ""
-    with open('./web/index.html', 'r') as f:
+    with open('./templates/index.html', 'r') as f:
         x = f.read()
     return x
     # return "This is a page"
@@ -26,4 +26,4 @@ def play():
     return "something went wrong"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0",port=80, debug=True)
