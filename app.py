@@ -1,6 +1,10 @@
 from flask import Flask
 import subprocess
+import thread
 app=Flask(__name__)
+
+def playTheMusic():
+    subprocess.call(['ffplay', '-nodisp', '-autoexit','./audio/file.mp3'])
 
 @app.route('/')
 def rootPage():
@@ -13,7 +17,7 @@ def rootPage():
 
 @app.route('/play')
 def play():
-    subprocess.call(['ffplay', '-nodisp','./audio/file.mp3'])
+    thread.start_new_thread(playTheMusic)
     return "Playing music"
 
 if __name__ == "__main__":
