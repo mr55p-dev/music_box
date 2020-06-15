@@ -11,3 +11,6 @@ def rootPage(self):
 def play(self):
     subprocess.call(['ffplay', '-nodisp','./audio/file.mp3'])
     return "Playing music"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")
