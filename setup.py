@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-requires = ["flask"]
+requires = ["flask", "multiprocessing","subprocess"]
 
 setup(
     name="musicBoxServer",
