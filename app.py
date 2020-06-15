@@ -5,7 +5,7 @@ from multiprocessing import Process
 app=Flask(__name__)
 
 def playTheMusic():
-    ubprocess.run(['ffplay', '-nodisp', '-autoexit','./audio/file.mp3'])
+    subprocess.run(['ffplay', '-nodisp', '-autoexit','./audio/file.mp3'])
     # output.check_returncode()
     # return output.returncode
     return
