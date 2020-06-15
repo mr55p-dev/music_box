@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, redirect, url_for
 import subprocess
 from multiprocessing import Process
 
@@ -21,9 +21,7 @@ def rootPage():
 @app.route('/play')
 def play():
     p = Process(target=playTheMusic)
-    if not p.start():
-        return "Playing music"
-    return "something went wrong"
+    return redirect(url_for('rootPage'))
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=80, debug=True)
