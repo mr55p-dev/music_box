@@ -3,6 +3,8 @@
 
 <head>
     <title>Music Box</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
@@ -18,15 +20,32 @@
                     </li>
                 </ul>
             </nav> -->
-            <h3 class="text-muted">Music Box App</h3>
+            <div class=".mx-auto">
+              <h1 class="text">Music Box App</h1>
+            </div>
         </div>
         <div class="container-fluid">
-          <div class=".mx-auto">
+          <!-- <div class=".mx-auto">
             <a href="/play/" class="badge badge-primary">Play</a>
+          </div> -->
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.merriammusic.com/2018/08/piano-vs-keyboard-1600x1066.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{cardTitle[0]}}</h5>
+              <!-- <p class="card-text">{{cardBody[0]}}</p> -->
+              <a href="/play/" class="btn btn-primary">Play on server</a>
+              <button type="button" name="playButton" onclick="play()" class="btn btn-primary">Play in browser</button>
+            </div>
           </div>
         </div>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="/static/js/" charset="utf-8"></script>
+
+    </script>
 </body>
 
 </html>

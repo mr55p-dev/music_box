@@ -3,7 +3,7 @@ requires = ["flask","python-dotenv"]
 
 setup(
     name="musicBoxServer",
-    version="0.0.0",
+    version="0.0.1",
     description="Flask server",
     packages=find_packages(),
     include_package_data=True,
