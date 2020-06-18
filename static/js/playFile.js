@@ -1,4 +1,5 @@
-function play() {
-  var audio = new Audio('/audio/file.mp3');
-  audio.play();
-}
+function playAudio(fileName) {
+  // document.getElementById('audioID').src(fileName);
+  $('audio').attr('src', "/static/audio/"+fileName);
+  $('audio')[0].play();
+};
