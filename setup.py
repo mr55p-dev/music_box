@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
-requires = ["flask","python-dotenv"]
+
+requires = ["flask", "python-dotenv", "pyopenssl"]
 
 setup(
     name="musicBoxServer",
@@ -7,5 +8,5 @@ setup(
     description="Flask server",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=requires
+    install_requires=requires,
 )
