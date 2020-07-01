@@ -23,17 +23,10 @@ cards = [
     [
         "Bach - Prelude in C Major",
         "prelude.mp3",
-        "First piece I learned to read only from the music",
+        "First piece I learned to read only from the music.",
         "https://i.ytimg.com/vi/B-rgOYwjRk0/hqdefault.jpg",
     ],
 ]
-# titleFilenameDict = {
-#     cards[0][0]: "lizst.mp3",
-#     cards[1][0]: "raindrop.mp3",
-#     # cards[2][0]: ""
-#     # cards[3][0]: ""
-#     # cards[4][0]: ""
-# }
 
 
 def playTheMusic(fileName):
@@ -46,7 +39,6 @@ def playTheMusic(fileName):
 @app.route("/")
 def rootPage():
     return render_template("index.html", cards=cards)
-    # return "This is a page"
 
 
 @app.route("/play/<fileName>")
@@ -55,6 +47,11 @@ def play(fileName):
     return redirect(url_for("rootPage"))
 
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+
 if __name__ == "__main__":
-    app.run(ssl_context="adhoc")
-    # app.run()
+    # app.run(ssl_context="adhoc")
+    app.run()
