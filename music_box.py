@@ -3,26 +3,27 @@ from multiprocessing import Process
 from card import cards
 import subprocess
 
-
 app = Flask(__name__)
 
 
 def playTheMusic(fileName):
-    subprocess.run(["ffplay", "-nodisp", "-autoexit", f"./static/audio/{fileName}"])
-    # output.check_returncode()
-    # return output.returncode
-    return
-
+    try:
+        subprocess.run(["ffplay", "-nodisp", "-autoexit", f"./static/audio/{fileName}"])
+        # output.check_returncode()
+        # return output.returncode
+        return ("", 200)
+    except Exception:
+        return ("Failed to play file on server.", 202)
 
 @app.route("/", methods=['GET', 'POST'])
 def rootPage():
     return render_template("index.html", cards=cards)
 
 
-@app.route("/play/<fileName>", methods=['POST'])
-def play(fileName):
-    playTheMusic(fileName)
-    return redirect(url_for("rootPage"))
+@app.route("/play/<filename>", methods=['POST'])
+def play():
+    status = playTheMusic(fileName)
+    return status
 
 
 @app.route("/about")
