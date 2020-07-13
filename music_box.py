@@ -1,32 +1,10 @@
-from flask import Flask, redirect, url_for, render_template
-import subprocess
+from flask import Flask, redirect, url_for, render_template, request
 from multiprocessing import Process
-from dotenv import load_dotenv
+from card import cards
+import subprocess
 
-load_dotenv()
+
 app = Flask(__name__)
-
-
-cards = [
-    [
-        "Lizst - Hungarian Rhapsody no 12",
-        "lizst.mp3",
-        "Music box style excerpt from our piece.",
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.ien.com%2Ffiles%2Fbase%2Findm%2Fien%2Fimage%2F2018%2F05%2F640w%2Fpiano_keys.5aec75c0e81fa.jpg&f=1&nofb=1",
-    ],
-    [
-        "Chopin - Raindrop Prelude",
-        "raindrop.mp3",
-        "Excerpt from the song I learned for you.",
-        "http://typotic.com/uploads/posts/5593/raindrops.jpg",
-    ],
-    [
-        "Bach - Prelude in C Major",
-        "prelude.mp3",
-        "First piece I learned to read only from the music.",
-        "https://i.ytimg.com/vi/B-rgOYwjRk0/hqdefault.jpg",
-    ],
-]
 
 
 def playTheMusic(fileName):
@@ -36,12 +14,12 @@ def playTheMusic(fileName):
     return
 
 
-@app.route("/")
+@app.route("/", methods=['GET', 'POST'])
 def rootPage():
     return render_template("index.html", cards=cards)
 
 
-@app.route("/play/<fileName>")
+@app.route("/play/<fileName>", methods=['POST'])
 def play(fileName):
     playTheMusic(fileName)
     return redirect(url_for("rootPage"))
