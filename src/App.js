@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Card from "./components/card.js";
 
 function App() {
   const [currentTime, setCurrentTime] = useState(0);
@@ -12,6 +13,8 @@ function App() {
         setCurrentTime(data.currentTime);
       });
   }, []);
+
+  const varToPass = "Vararar";
 
   return (
     <div className="App">
@@ -30,6 +33,7 @@ function App() {
         </a>
 
         <p>The current time is {currentTime}.</p>
+        <Card vari={varToPass}/>
       </header>
     </div>
   );
