@@ -9,4 +9,6 @@ app = Flask(__name__)
 
 @app.route("/time")
 def timeRoute():
-    return {"time": time.time()}
+    print("Getting time from the API.")
+    print("#ff49a8")
+    return {"currentTime": time.time()}
