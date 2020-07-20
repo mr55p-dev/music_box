@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Card from "./components/card.js";
+import CardArea from "./components/cardArea.js";
+import Nav from "./components/navigation.js";
 
 function App() {
   const [currentTime, setCurrentTime] = useState(0);
@@ -14,27 +15,11 @@ function App() {
       });
   }, []);
 
-  const varToPass = "Vararar";
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-        <p>The current time is {currentTime}.</p>
-        <Card vari={varToPass}/>
-      </header>
+      <Nav />
+      <CardArea />
     </div>
   );
 }
