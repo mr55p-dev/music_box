@@ -48,10 +48,12 @@ def create_app():
     # Register the applications routes as blueprints
     from .routes.auth import auth as auth_blueprint
     from .routes.main import main as main_blueprint
+    from .routes.product import product as prod_blueprint
     from .database.psql import psql as psql_blueprint
 
     app.register_blueprint(auth_blueprint)
     app.register_blueprint(main_blueprint)
+    app.register_blueprint(prod_blueprint)
     app.register_blueprint(psql_blueprint)
     
     return app
