@@ -1,7 +1,7 @@
-from flask import Blueprint
-from . import db, db_url
-from .models import User
 import click
+from flask import Blueprint
+from flask_server import db, db_url
+from flask_server.database.models import User
 
 psql = Blueprint("psql", __name__)
 

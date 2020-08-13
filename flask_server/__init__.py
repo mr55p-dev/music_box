@@ -39,16 +39,16 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from .models import User
+    from .database.models import User
     @login_manager.user_loader
     def load_user(userID):
         return User.query.get(int(userID))
 
 
     # Register the applications routes as blueprints
-    from .auth import auth as auth_blueprint
-    from .main import main as main_blueprint
-    from .psql import psql as psql_blueprint
+    from .routes.auth import auth as auth_blueprint
+    from .routes.main import main as main_blueprint
+    from .database.psql import psql as psql_blueprint
 
     app.register_blueprint(auth_blueprint)
     app.register_blueprint(main_blueprint)
