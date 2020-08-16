@@ -41,8 +41,8 @@ def create_app():
 
     from .database.models import User
     @login_manager.user_loader
-    def load_user(userID):
-        return User.query.get(int(userID))
+    def load_user(user_id):
+        return User.query.get(int(user_id))
 
 
     # Register the applications routes as blueprints

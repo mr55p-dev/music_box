@@ -5,9 +5,19 @@
 <div class="column is-4 is-offset-4">
     <h3 class="title">{{ box.boxName }}</h3>
     <div class="box">
-        <h3>Songs available</h3>
+        <h3>All songs available</h3>
         <ul>
-            {% for song in songs %}
+            {% for song in all_songs %}
+            <li class="item">
+                <a href="#">{{ song.songName }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="box">
+        <h3>Songs registered to box</h3>
+        <ul>
+            {% for song in box_songs %}
             <li class="item">
                 <a href="#">{{ song.songName }}</a>
             </li>

@@ -1,40 +1,28 @@
 from flask_server import db
 from flask_login import UserMixin
 
-songs_on_box = db.Table('songs_on_box', 
-    db.Column('songID', db.Integer(), db.ForeignKey('songs.songID')),
-    db.Column('boxID', db.Integer(), db.ForeignKey('boxes.boxID'))
-)
-
 class User(UserMixin, db.Model):
     __tablename__ = "users"
 
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(100), unique = True)
-    name = db.Column(db.String(100))
-    password = db.Column(db.String(1000))
-    boxes = db.relationship('Box', backref=db.backref('owner'), lazy=False)
+    user_id          =   db.Column(db.Integer(), primary_key = True)
+    user_email       =   db.Column(db.String(100), unique = True, nullable = False)
+    user_name        =   db.Column(db.String(100), nullable = False)
+    user_password    =   db.Column(db.String(100), nullable = False)
+    user_boxes       =   db.relationship('Box', backref = 'owner', lazy = True)
 
-    def __repr__(self):
-        return f"<User {self.name}>"
+    def get_id(self):
+        return self.user_id
 
 class Box(db.Model):
-    __tablename__ = "boxes"
+    __tablename__ = 'boxes'
 
-    boxID = db.Column(db.Integer, primary_key=True)
-    boxName = db.Column(db.String(100), unique=True)
-    boxToken = db.Column(db.String(100))
-    userID = db.Column(db.Integer(), db.ForeignKey('users.id'))
-    songs = db.relationship('Song', secondary=songs_on_box, backref=db.backref('boxes'))
-
-    def __repr__(self):
-        return f"<Box {self.boxName}"
+    box_id      =   db.Column(db.Integer(), primary_key = True)
+    box_name    =   db.Column(db.String(100), unique=True, nullable = False)
+    box_token   =   db.Column(db.String(100), unique=True, nullable = False)
+    owner_id    =   db.Column(db.Integer(), db.ForeignKey('users.user_id'))
 
 class Song(db.Model):
-    __tablename__ = "songs"
+    __tablename__ = 'songs'
 
-    songID = db.Column(db.Integer, primary_key=True)
-    songName = db.Column(db.String(100), unique=True)
-
-    def __repr__(self):
-        return f"<Song {self.songName}"
+    song_id     =   db.Column(db.Integer(), primary_key = True)
+    song_name   =   db.Column(db.String(100), unique = True, nullable = False)

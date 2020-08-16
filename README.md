@@ -1,3 +1,14 @@
+# The Music Box Project
+This project is a flask server and Python-written client designed to be hosted on a small computer (i.e. raspberry-pi) inside a music box. 
+
+## Setup
+- Clone the repo
+- Install the requirements, `pip install -r requirements.txt`
+- Set the basic environment variables (sample provided in .env.default)
+
+
+
+
 # Instructions for using the database commands
 ## Flask PSQL
 - You can use `flask psql reset` to reset the database/initalise a database onto a new docker image. 

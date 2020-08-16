@@ -12,10 +12,9 @@ def index():
 @main.route('/profile')
 @login_required
 def profile():
-    userBoxes = Box.query.filter_by(userID=current_user.id).all()
     return render_template('profile.html', 
-        name = current_user.name,
-        boxes = userBoxes
+        name = current_user.user_name,
+        boxes = current_user.user_boxes
     )
 
     
