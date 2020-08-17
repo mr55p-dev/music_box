@@ -25,10 +25,6 @@ def ownership_required(func):
         if int(kwargs["boxID"]) not in [box.box_id for box in current_user.user_boxes]:
             return current_app.login_manager.unauthorized()
         return func(*args, **kwargs)
-
-
-        
-            
     return wrapper
 
 def trace(func):
