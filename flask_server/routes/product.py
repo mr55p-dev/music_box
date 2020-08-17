@@ -4,6 +4,7 @@ from flask_server import db
 from flask_server.database.models import User, Box, Song
 from flask_server.utils.decorators import ownership_required, trace
 
+
 product = Blueprint('product', __name__)
 
 @product.route('/register', methods=["POST"])

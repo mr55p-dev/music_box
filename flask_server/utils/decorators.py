@@ -3,6 +3,7 @@ from flask import current_app
 from flask_login import current_user
 from flask_server.database.models import User, Box
 
+
 def ownership_required(func):
     """
     Wrapper to specify that the userID must
@@ -46,4 +47,4 @@ def trace(func):
             Returned: {ret}
             ''')
         return func(*args, **kwargs)
-        
+
