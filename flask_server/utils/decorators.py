@@ -3,7 +3,11 @@ from flask import current_app
 from flask_login import current_user
 from flask_server.database.models import User, Box
 
+<<<<<<< HEAD
 def ownership_required(func):
+=======
+def requiresOwnership(func):
+>>>>>>> 890cd43b145d9a827f846ae5ec28e8d3e5934c2b
     """
     Wrapper to specify that the userID must
     own the boxID in question before a page 
@@ -19,6 +23,7 @@ def ownership_required(func):
     """
     @wraps(func)
     def wrapper(*args, **kwargs):
+<<<<<<< HEAD
         # Old mehtod.
         # current_box = Box.query.filter_by(box_id=kwargs["boxID"]).first()
         # if current_box.owner_id is not current_user.id:
@@ -29,6 +34,13 @@ def ownership_required(func):
 
         
             
+=======
+        current_box = Box.query.filter_by(boxID=kwargs["boxID"]).first()
+        if current_box.userID is not current_user.id:
+            return current_app.login_manager.unauthorized()
+        # print(f'Trace: function {func.__name__}\nWith args: {args}\nKeyword arguments: {kwargs}')
+        return func(*args, **kwargs)
+>>>>>>> 890cd43b145d9a827f846ae5ec28e8d3e5934c2b
     return wrapper
 
 def trace(func):
