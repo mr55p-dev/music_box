@@ -16,5 +16,3 @@ def profile():
         name = current_user.user_name,
         boxes = current_user.user_boxes
     )
-
-    
