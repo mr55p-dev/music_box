@@ -1,74 +1,71 @@
-from flask import Blueprint, render_template, flash, request, redirect, url_for
-from flask_login import current_user, login_required
+from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app
+from flask_login import login_required
 from flask_server import db
-from flask_server.database.models import User, Box, Song
-from flask_server.utils.decorators import ownership_required, trace
+from flask_server.database.models import Song
+from flask_server.pool.assign import add_to_queue
+from werkzeug.utils import secure_filename
+import os
+import logging
 
 
 product = Blueprint('product', __name__)
+product_log = logging.getLogger('product_log')
 
-@product.route('/register', methods=["POST"])
-@login_required
-def registerBox():
-    """
-    This POST-only route is used to register a new box
-    from its identifier token box_id and then
-    redirect the user back to their profile.
-    The current user is set as the owner of the box.
-    """
 
-    boxName = request.form.get("boxName")
-    boxToken = request.form.get("boxToken")
-
-    if Box.query.filter_by(box_token=boxToken).first():
-        flash("This box token is already registered.")
-        return redirect(url_for('product.register'))
-    
-    new_box = Box(
-        box_name = boxName,
-        box_token = boxToken,
-        owner_id = current_user.user_id
-    )
-    db.session.add(new_box)
-    db.session.commit()
-    flash("Your box has been added.")
-    return redirect(url_for('main.profile'))
-
-@product.route('/box/<boxID>')
-@login_required
-@ownership_required
-def boxView(boxID):
-    # Big problem with this line here, some work needed on querying the relation - figure it out !!!
-    current_box = Box.query.filter_by(box_id = boxID).first()
-    return render_template('boxes.html', box = current_box)
-
-@product.route('/box/<boxID>/addSong', methods=["POST"])
-@login_required
-def addSongToBox(boxID):
-    """
-    This is a tempoary method which is just meant to test
-    accessing one property through another in the database
-    models. Needs to be replaced with something that also 
-    communicates with the box and writes the song / checks
-    which songs are on the box.
-    """
-    return "AddSong"
-
-# @product.route('/box/<boxID>/addSong')
+@product.route('/upload', methods=["POST"])
 # @login_required
-# def boxSongsPage(boxID):
-#     """
-#     Again a tempoary method which just allows viewing the
-#     songs in the database, it doesnt work properly as 
-#     there are no boxes in real life and no clients to communicate
-#     with. Just for testing.
-#     """
-#     all_songs = Song.query.all()
-#     box_songs = Box.query.filter_by(boxID=boxID).first().songs
-#     current_box = Box.query.filter_by(boxID=boxID).first()
+def save_song():
+    """
+    Bla Bla Bla
+    """
+    song_name = request.form.get('songName')
+    song_artist = request.form.get('songArtist')
+    song_description = request.form.get('songDescription')
+    song_file = request.files["songFile"]
 
-#     return render_template('song-add.html', 
-#         all_songs = all_songs,
-#         box_songs = box_songs,
-#         box = current_box
-#     )
+    if song_file.filename == '':
+        flash("Please upload a song.")
+        return redirect(url_for('product.upload_song'))
+
+    song_filename = secure_filename(song_file.filename)
+    song_dir = current_app.config['UPLOAD_FOLDER']
+    song_path = os.path.join(song_dir, song_filename)
+    song_file.save(song_path)
+
+    new_song = Song(
+        name=song_name,
+        artist=song_artist,
+        description=song_description,
+        path=song_path
+    )
+
+    db.session.add(new_song)
+    db.session.commit()
+
+    flash("Upload succesfull.")
+    return redirect(url_for('product.show_songs'))
+
+
+@product.route('/upload', methods=['GET'])
+# @login_required()
+def upload_song():
+    return render_template('upload.html')
+
+
+@product.route('/songs', methods=["GET"])
+def show_songs():
+    songs = [i for i in Song.query.all()]
+    return render_template('songs.html', songs=songs)
+
+
+@product.route('/play')
+def play_song():
+    song_id = request.args.get("id")
+    song = Song.query.filter_by(id=song_id).first()
+    if not song_id or not song:
+        return "Resource not found", 404
+
+    product_log.info(f"Attempting to queue: {song.path}")
+    add_to_queue(song.path)
+
+    return "Playing?"

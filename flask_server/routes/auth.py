@@ -16,12 +16,12 @@ def login_post():
     password = request.form.get('password')
     remember = True if request.form.get('checkbox') else False
 
-    user = User.query.filter_by(user_email=email).first()
+    user = User.query.filter_by(email=email).first()
     if not user:
         flash("Your email is incorrect.")
         return redirect(url_for('auth.login'))
 
-    if not check_password_hash(user.user_password, password):
+    if not check_password_hash(user.password, password):
         flash("Your password is incorrect.")
         return redirect(url_for('auth.login'))    
 
@@ -38,22 +38,22 @@ def signup_post():
     email = request.form.get("email").lower()
     password = request.form.get("password")
 
-    if User.query.filter_by(user_email=email).first():
+    if User.query.filter_by(user=email).first():
         print("email already exists")
         flash("This email is already associated with an account.")
         return redirect(url_for('auth.signup'))
 
     new_user = User(
-        user_email=email,
-        user_name=name,
-        user_password=generate_password_hash(password)
+        user=email,
+        name=name,
+        password=generate_password_hash(password)
     )
 
     db.session.add(new_user)
     db.session.commit()
     print("New user added.")
 
-    new_user = User.query.filter_by(user_email = new_user.user_email).first()
+    new_user = User.query.filter_by(email = new_user.email).first()
     login_user(new_user)
     return redirect(url_for('main.profile'))
 

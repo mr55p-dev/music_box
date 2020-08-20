@@ -1,28 +1,32 @@
-from os import environ as env
+import os
+import rq
+from redis import Redis
+import logging
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
 
+
 db = SQLAlchemy()
 migrate = Migrate()
 login_manager = LoginManager()
+application_log = logging.getLogger()
+env = os.getenv
+
 
 def create_app():
     # Create an application object
     app = Flask(__name__)
 
     # Load the database environment variables
-    try:
-        db_info = [
-            env["POSTGRES_USER"],
-            env["POSTGRES_PW"],
-            env["POSTGRES_URL"],
-            env["POSTGRES_DB"]
-        ]
-    except Exception as e:
-        print("Error configuring one or more enviornment variables.")
-        raise 
+    db_info = [
+        env("POSTGRES_USER"),
+        env("POSTGRES_PW"),
+        env("POSTGRES_URL"),
+        env("POSTGRES_DB"),
+    ]
 
     # This is sloppy, change it soon.
     global db_url
@@ -31,19 +35,28 @@ def create_app():
     # Configure the application variables for SQLAlchemy
     app.config["SQLALCHEMY_DATABASE_URI"] = db_url
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    app.config["SECRET_KEY"] = env["SECRET_KEY"]
-    
+    app.config["SECRET_KEY"] = env("SECRET_KEY")
+    app.config["UPLOAD_FOLDER"] = os.path.join(os.getcwd(), 'flask_server/uploads/')
+    app.config["REDIS_URL"] = env("REDIS_URL") or "redis://"
+
     # Initalise plugins
+    application_log.setLevel(logging.DEBUG)
+    logging.basicConfig(filename=os.path.join(os.getcwd(), 'flask_server/logs/main.log'))
     login_manager.login_view = 'auth.login'
     login_manager.init_app(app)
     db.init_app(app)
     migrate.init_app(app, db)
+    app.redis = Redis.from_url(app.config["REDIS_URL"])
+    app.queue = rq.Queue(name="play_tasks", default_timeout=1000, connection=app.redis)
+
+    # TEST
+    application_log.warning(f'DB_URL: {db_url}')
 
     from .database.models import User
+
     @login_manager.user_loader
     def load_user(user_id):
         return User.query.get(int(user_id))
-
 
     # Register the applications routes as blueprints
     from .routes.auth import auth as auth_blueprint
@@ -55,5 +68,5 @@ def create_app():
     app.register_blueprint(main_blueprint)
     app.register_blueprint(prod_blueprint)
     app.register_blueprint(psql_blueprint)
-    
+
     return app

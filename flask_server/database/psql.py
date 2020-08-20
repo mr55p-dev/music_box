@@ -1,7 +1,7 @@
 import click
 from flask import Blueprint
 from flask_server import db, db_url
-from flask_server.database.models import User
+from flask_server.database.models import User, Song
 
 psql = Blueprint("psql", __name__)
 
@@ -24,22 +24,14 @@ def resetDB():
 
 @psql.cli.command("test")
 def testDB():
-    from time import time
-    testQuery = User(
-        email=f"testMail{str(time())}",
-        name="testName",
-        password="testPassword"
+    newSong = Song(
+        name = "Song",
+        artist = "Artist",
+        description = "Lorem ipsum.",
+        path = "/path/"
     )
-    db.session.add(testQuery)
+
+
+    db.session.add(newSong)
     db.session.commit()
     print("Complete")
-
-@psql.cli.command("query")
-@click.argument("name")
-def queryDB(name):
-    res = User.query.filter_by(name=name).all()
-    if not res:
-        print("No matches.")
-    else:
-        print(f"{len(res)} result(s)")
-        [print(i.name) for i in res]

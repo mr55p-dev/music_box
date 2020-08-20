@@ -1,0 +1,199 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:0.0.0.0:5432@music_box_db/password
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:26:09] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:26:11] "[33mGET /play?song=1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:27:24] "[33mGET /play?song=1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:27:35] "[33mGET /play?song=1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:27:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:27:40] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:27:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:application_log:Created worker with id: 2503568a-8885-46a6-ad1c-996422b364c9
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:27:43] "[35m[1mGET /play?id=1 HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 312, in execute
+    application_iter = app(environ, start_response)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:27:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:44] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:44] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:46] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:application_log:Created worker with id: fdec67aa-9910-4d5c-9e3f-6f2edf545c51
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:28:48] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application_log:Created worker with id: d4d3a507-aa06-43f0-a809-5e355a651c73
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:30:27] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:application_log:Created worker with id: bcbedf0e-a2de-4e79-bc73-278aae726ce4
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:30:34] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application_log:Created worker with id: 46ca213e-f13f-4995-b781-3c2393d2fce0
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:31:20] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application_log:Created worker with id: 8103266b-870b-4901-8a37-09953c90453b
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:39:24] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:application_log:Created worker with id: 8f106f9b-1a33-480a-b450-94a3a0b9870c
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:41:52] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: a
+INFO:application_log:Created worker with id: c9bca8ef-25bd-42f1-9185-8e7ab5bc83b0
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:44:53] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: a
+INFO:application_log:Created worker with id: b9eb298a-a664-423d-8ba3-1c11bac42b23
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:36] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:38] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:51] "[32mPOST /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:51] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:56] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:47:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: a
+INFO:application_log:Created worker with id: d25ae52e-6f3f-409e-abb3-b979a2540f5c
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:48:07] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:48:09] "[33mGET /play HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:48:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: a
+INFO:application_log:Created worker with id: fb297be3-2740-4b24-916d-fb89e55273d8
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:48:12] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:48:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:48:12] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: a
+INFO:application_log:Created worker with id: 1ca1014a-6efc-497a-bac9-9843066ff740
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:48:15] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:50:14] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:50:32] "[32mPOST /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:50:32] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: Song
+INFO:application_log:Created worker with id: 096cbb67-30a5-4433-ac91-7e681593760c
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:50:34] "[37mGET /play?id=5 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:50:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.aif
+INFO:application_log:Created worker with id: 4f0f9511-df12-4208-b60a-d31366eff72c
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:51:23] "[37mGET /play?id=5 HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.aif
+INFO:application_log:Created worker with id: c01db043-737c-41f0-ac9c-24af2258b478
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:51:37] "[37mGET /play?id=5 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:53:22] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:53:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:53:23] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:53:34] "[32mPOST /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:53:34] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: 94e9bce2-8d88-49bf-883f-5c56140871ac
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:53:36] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:53:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:54:33] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: b1cb4074-2b55-442c-a861-fc0e5b8ca095
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:54:34] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:57:07] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: 04cd18da-468d-400e-9a32-f1e646bee62a
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [20/Aug/2020 23:57:08] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: be17f0a3-80db-4069-8599-2ae2c1836885
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 00:04:16] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 00:09:42] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: 3caefb5b-6af4-4d1f-90bf-fb57d90737d3
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 00:09:45] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: 35395fdc-799f-4156-837b-0983db72b52a
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 00:11:46] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: 361554e3-853f-444b-983d-c7dce599e6ae
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 00:11:57] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -
+WARNING:root:DB_URL: postgresql+psycopg2://postgres:password@0.0.0.0:5432/music_box_db
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.4.mp3
+INFO:application_log:Created worker with id: 3e2ef2eb-6bf5-4340-87fa-f2da5c3683f1
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 00:12:48] "[37mGET /play?id=6 HTTP/1.1[0m" 200 -

@@ -1,29 +1,28 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
 {% block content %}
-<div class="column is-4 is-offset-4">
-    <h3 class="title">Sign Up</h3>
-    <div class="box">
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-        <div class="notification is-danger">
-            {{ messages[0] }} Go to <a href='{{ url_for("auth.login") }}'>login page</a>.
+<div class="bg-light h-100 text-dark">
+    <div class="container justify-content-end align-items-center">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                <h3 class="title">Create Account</h3>
+                <div class="container-fluid">
+                    {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                    <div class="alert" role="alert">
+                        {{ messages[0] }}
+                    </div>
+                    {% endif %}
+                    {% endwith %}
+                    <form action="/signup" method="POST">
+                        <div class="mb-3"><label for="signupEmail" class="form-label">Email<input type="email" name="email" id="signupEmail" class="form-control"></label></div>
+                        <div class="mb-3"><label for="signupName" class="form-label">Name<input type="text" name="name" id="signupName" class="form-control"></label></div>
+                        <div class="mb-3"><label for="signupPassword" class="form-label">Password<input type="password" name="password" id="signupPassword" class="form-control"></label></div>
+                        <div class="mb-3"><label for="signupToken" class="form-label">Token<input type="text" name="token" id="signupToken" class="form-control"></label></div>
+                    </form>
+                </div>
+            </div>
         </div>
-        {% endif %}
-        {% endwith %}
-        <form action="/signup" method="POST">
-            <div class="field">
-                <div class="control"><input type="email" class="input is-large" name="email" placeholder="Your Email" autofocus=""></div>
-            </div>
-            <div class="field">
-                <div class="control"><input type="text" class="input is-large" name="name" placeholder="Your Name" autofocus=""></div>
-            </div>
-            <div class="field">
-                <div class="control"><input type="password" class="input is-large" name="password" placeholder="Your Password" autofocus=""></div>
-            </div>
-
-            <button class="button is-block is-info is-fullwdith">Sign Up</button>
-        </form>
     </div>
 </div>
-{% endblock %}
+{% endblock content %}

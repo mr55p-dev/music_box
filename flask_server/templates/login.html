@@ -1,33 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="column is-4 is-offset-4">
-    <h3 class="title">Login</h3>
-    <div class="box">
-        <form action="/login" method="POST">
-            {% with messages = get_flashed_messages() %}
-            {% if messages %}
-            <div class="notification is-danger">
-                {{ messages[0] }} Go to <a href='{{ url_for("auth.signup") }}'>sign-up page</a>.
-            </div>
-            {% endif %}
-            {% endwith %}
-            <div class="field">
-                <div class="control">
-                    <input type="email" class="input is-large" name="email" placeholder="Your Email"autofocus="">
+    <div class="bg-light bg-gradient h-100 text-dark">
+        <div class="container justify-content-end align-items-center">
+            <div class="row">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                    <h3 class="title">Login</h3>
+                    <div class="container-fluid">
+                        <form action="" method="">
+                            <div class="mb-3"><label for="signupEmail" class="form-label">Email<input type="email" id="signupEmail" class="form-control" name="email"></label></div>
+                            <div class="mb-3"><label for="signupPassword" class="form-label">Password<input type="password" id="signupPassword" class="form-control" name="password"></label></div>
+                            <div class="mb-3"><label for="signup-checkbox" class="form-label">Remember Me?<input type="checkbox" id="signup-checkbox" class="form-check-input ml-1" name="remember"></label></div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="field">
-                <div class="control"><input type="password" class="input is-large" name="password"
-                        placeholder="Your Password"></div>
-            </div>
-            <div class="field">
-                <label class="checkbox">
-                    <input type="checkbox">Remember me
-                </label>
-            </div>
-            <button class="button is-block is-info is-large is-fullwidth">Login</button>
-        </form>
+        </div>
     </div>
-</div>
-{% endblock %}
+{% endblock content %}

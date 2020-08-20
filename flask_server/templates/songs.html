@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <h1 class="title">Your songs</h1>
+    <div class="row row-cols-auto">
+        {% for song in songs %}
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ song.name }}</h5>
+                    <h6 class="card_subtitle">{{ song.artist }}</h6>
+                    <p class="card_text">{{ song.description }}</p>
+                    <!-- make this a bootstrap icon -->
+                    <a href="{{ url_for('product.play_song', id=song.id) }}" class="card-link">Play</a>
+                    <!-- <a href="#" class="card-link">Play</a> -->
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock content %}

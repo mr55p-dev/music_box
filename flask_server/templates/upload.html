@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container-fluid">
+        <form action="/upload" method="POST" enctype="multipart/form-data" id="form">
+            <div class="mb-3"><label for="inputSongName" class="form-label">Song name</label><input type="text", name="songName", class="form-control" id="inputSongName"></div>
+            <div class="mb-3"><label for="inputSongArtist" class="form-label">Artist / Composer</label><input type="text", name="songArtist", class="form-control" id="inputSongArtist"></div>
+            <div class="mb-3"><label for="inputSongDescription" class="form-label">Description</label><input type="text", name="songDescription", class="form-control" id="inputSongDescription"></div>
+            <div class="mb-3"><label for="inputSongFile" class="form-label">File:</label><input type="file", name="songFile", class="form-control" id="inputSongFile" value="File::"></div>
+        </form>
+        <button type="submit" class="btn btn-outline-dark" form="form">submit</button>
+    </div>
+{% endblock content %}
