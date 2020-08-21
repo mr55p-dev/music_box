@@ -4,17 +4,22 @@
     <div class="bg-light bg-gradient h-100 text-dark">
         <div class="container align-items-center">
             <div class="row">
-                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
-                    <h3 class="title">Login</h3>
-                    <div class="container-fluid">
-                        <form action="/signup" method="POST">
-                            <div class="mb-3"><label for="signupEmail" class="form-label text-left">Email<input type="email" id="signupEmail" class="form-control" name="email"></label></div>
-                            <div class="mb-3"><label for="signupPassword" class="form-label text-left">Password<input type="password" id="signupPassword" class="form-control" name="password"></label></div>
-                            <div class="mb-3"><label for="signup-checkbox" class="form-label text-left">Remember Me?<input type="checkbox" id="signup-checkbox" class="form-check-input ml-1" name="remember"></label></div>
-                        </form>
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12 mx-auto text-center form">
+                    <div class="bg-dark text-light container rounded pt-2 pb-2 mt-4 ">
+                        <h3 class="title">Login</h3>
+                        <div class="container-fluid ">
+                            <form id="form" action="/signup" method="POST">
+                                <div class="form-group mb-3"><input placeholder="E-mail" type="email" id="signupEmail" class="form-control" name="email"></label></div>
+                                <div class="form-group mb-3"><input placeholder="Password" type="password" id="signupPassword" class="form-control" name="password"></label></div>
+                                <div class="form-group mb-3"><button type="submit" class="btn btn-info btn-block" form="form">Submit</button>
+                                <div class="bottom-action clearfix pt-3"><input type="checkbox" id="signup-checkbox" class="form-check-input float-left mr-1" name="remember"><label for="signup-checkbox" class="form-check-label float-left text-left">Remember Me?</label></div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 {% endblock content %}
