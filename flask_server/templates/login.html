@@ -2,15 +2,15 @@
 
 {% block content %}
     <div class="bg-light bg-gradient h-100 text-dark">
-        <div class="container justify-content-end align-items-center">
+        <div class="container align-items-center">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
                     <h3 class="title">Login</h3>
                     <div class="container-fluid">
-                        <form action="" method="">
-                            <div class="mb-3"><label for="signupEmail" class="form-label">Email<input type="email" id="signupEmail" class="form-control" name="email"></label></div>
-                            <div class="mb-3"><label for="signupPassword" class="form-label">Password<input type="password" id="signupPassword" class="form-control" name="password"></label></div>
-                            <div class="mb-3"><label for="signup-checkbox" class="form-label">Remember Me?<input type="checkbox" id="signup-checkbox" class="form-check-input ml-1" name="remember"></label></div>
+                        <form action="/signup" method="POST">
+                            <div class="mb-3"><label for="signupEmail" class="form-label text-left">Email<input type="email" id="signupEmail" class="form-control" name="email"></label></div>
+                            <div class="mb-3"><label for="signupPassword" class="form-label text-left">Password<input type="password" id="signupPassword" class="form-control" name="password"></label></div>
+                            <div class="mb-3"><label for="signup-checkbox" class="form-label text-left">Remember Me?<input type="checkbox" id="signup-checkbox" class="form-check-input ml-1" name="remember"></label></div>
                         </form>
                     </div>
                 </div>

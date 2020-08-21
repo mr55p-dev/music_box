@@ -15,11 +15,24 @@
                     {% endif %}
                     {% endwith %}
                     <form action="/signup" method="POST">
-                        <div class="mb-3"><label for="signupEmail" class="form-label">Email<input type="email" name="email" id="signupEmail" class="form-control"></label></div>
-                        <div class="mb-3"><label for="signupName" class="form-label">Name<input type="text" name="name" id="signupName" class="form-control"></label></div>
-                        <div class="mb-3"><label for="signupPassword" class="form-label">Password<input type="password" name="password" id="signupPassword" class="form-control"></label></div>
-                        <div class="mb-3"><label for="signupToken" class="form-label">Token<input type="text" name="token" id="signupToken" class="form-control"></label></div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3"><label for="signupEmail" class="form-label text-left">Email<input type="email" name="email" id="signupEmail" class="form-control"></label></div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3"><label for="signupName" class="form-label text-left">Name<input type="text" name="name" id="signupName" class="form-control"></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3"><label for="signupPassword" class="form-label text-left">Password<input type="password" name="password" id="signupPassword" class="form-control"></label></div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3"><label for="signupToken" class="form-label text-left">Token<input type="text" name="token" id="signupToken" class="form-control"></label></div>
+                            </div>
+                        </div>
                     </form>
+
                 </div>
             </div>
         </div>

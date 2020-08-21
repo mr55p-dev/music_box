@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app
-from flask_login import login_required
+# from flask_login import login_required
 from flask_server import db
 from flask_server.database.models import Song
 from flask_server.pool.assign import add_to_queue

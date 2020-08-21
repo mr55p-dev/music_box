@@ -16,6 +16,6 @@ class Song(db.Model):
 
     id = db.Column(db.Integer(), primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False)
-    artist = db.Column(db.String(100), unique=True, nullable=False)
+    artist = db.Column(db.String(100), unique=False, nullable=False)
     description = db.Column(db.String(400), unique=True, nullable=False)
     path = db.Column(db.String(100), unique=True, nullable=False)
