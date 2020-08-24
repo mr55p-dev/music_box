@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<script>
+    var id = "{{ job.id }}";
+
+    var pause = 0;
+    var play = 1;
+    var cancel = 0;
+
+    function playButton() {
+        sendData(0, 1, 0)
+    };
+
+    function pauseButton() {
+        sendData(1, 0, 0)
+    };
+
+    function cancelButton() {
+        sendData(0, 1, 1)
+    };
+
+    function sendData(pause, play, cancel) {
+        axios.post('/playing', {
+            id: id,
+            playing: play,
+            paused: pause,
+            cancelled: cancel
+        })
+        .then(function (response) {
+        console.log(response);
+        })
+        .catch(function (error) {
+        console.log(error);
+        });
+    }
+
+
+
+</script>
+
+    <button id="play" onclick="playButton(); console.log('Playing')">Play</button>
+    <button id="pause" onclick="pauseButton()">Pause</button>
+    <button id="cancel" onclick="cancelButton()">Cancel</button>
+
+
+{% endblock content %}
+
+
+

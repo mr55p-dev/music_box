@@ -963,3 +963,1363 @@ INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 16:21:32] "[37mGET /songs HTTP/1.1[0m
 INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 16:21:46] "[37mGET /songs HTTP/1.1[0m" 200 -
 INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [21/Aug/2020 16:22:01] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:28:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:29:07] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:29:07] "[37mGET /static/style.songs.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:29:09] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:29:31] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:29:55] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:38:37] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:40:20] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.20.10.1 - - [23/Aug/2020 14:41:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.20.10.1 - - [23/Aug/2020 14:41:58] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.20.10.1 - - [23/Aug/2020 14:41:59] "[37mGET /static/style.songs.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:42:32] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:42:52] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.20.10.1 - - [23/Aug/2020 14:43:01] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:43:58] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:45:26] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:46:15] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:56:45] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:56:47] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:56:48] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:56:58] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:56:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:57:06] "[37mGET /static/clamp.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 14:57:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 15:00:20] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 15:00:20] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 15:23:46] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 15:23:46] "[37mGET /static/style.songs.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 15:23:46] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 15:27:13] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:07] "[32mGET /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:07] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:11] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:11] "[37mGET /signup HTTP/1.1[0m" 200 -
+INFO:auth_log:Created new user: 
+INFO:auth_log:Logged in user: 
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:11] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:13] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:auth_log:Logged out user: 
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:18] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:23] "[32mGET /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:23] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:24] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: d15000a6-4a0d-4617-9bb5-c4c7fb5ab7d4
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:28] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:34] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: e5390804-66bd-4282-b308-9e0f15b7c3bb
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:15:44] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 157c4a4b-f59e-4f8d-85ae-c79a0ae0b2af
+INFO:application_log:Worker exitedited with code 0.
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:17:44] "[37mGET /play?id=1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:18:44] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:18:46] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:18:50] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:22:06] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:23:04] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:23:04] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:25:43] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:26:06] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:26:59] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:28:14] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.0.24 - - [23/Aug/2020 16:33:44] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.0.24 - - [23/Aug/2020 16:33:44] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:35:02] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:36:01] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:38:37] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:38:40] "[37mGET /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:17] "[37mGET /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:22] "[32mGET /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:22] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:28] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:28] "[37mGET /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:28] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:28] "[37mGET /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:30] "[32mGET /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:30] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:35] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:35] "[37mGET /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:38] "[32mGET /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:38] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:39] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:41] "[32mGET /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:41] "[37mGET /login?next=%2Fupload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:46] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:39:46] "[37mGET /signup HTTP/1.1[0m" 200 -
+INFO:auth_log:Created new user: Ellis
+INFO:auth_log:Logged in user: Ellis
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:11] "[32mPOST /signup HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:15] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:16] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:20] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:21] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:38] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:39] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:40] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 16:41:42] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:56:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:56:13] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 0126ad6a-2491-4dcf-9c58-36f9385e8977
+INFO:product_log:Created play job with id: 0126ad6a-2491-4dcf-9c58-36f9385e8977
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:56:27] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:56:27] "[37mGET /playing?values=%7B%27id%27%3A+%270126ad6a-2491-4dcf-9c58-36f9385e8977%27%7D HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:56:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:58:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:58:28] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: c9b47039-cf27-45ce-adc6-999e7d575172
+INFO:product_log:Created play job with id: c9b47039-cf27-45ce-adc6-999e7d575172
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:58:30] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:58:30] "[37mGET /playing?id=c9b47039-cf27-45ce-adc6-999e7d575172 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:58:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 17:58:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:12] "[37mGET /upload HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:14] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: bb427b99-ce7e-4264-999a-9d38722369f7
+INFO:product_log:Created play job with id: bb427b99-ce7e-4264-999a-9d38722369f7
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:16] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:16] "[37mGET /playing?id=bb427b99-ce7e-4264-999a-9d38722369f7 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 73d023ea-9c31-4c76-8063-3d4e9908542b
+INFO:product_log:Created play job with id: 73d023ea-9c31-4c76-8063-3d4e9908542b
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:33] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:33] "[37mGET /playing?id=73d023ea-9c31-4c76-8063-3d4e9908542b HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:05:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:51:24] "[37mGET /playing?id=73d023ea-9c31-4c76-8063-3d4e9908542b HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:51:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:51:30] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 78259c49-9851-4e8f-8be9-0a592cc20391
+INFO:product_log:Created play job with id: 78259c49-9851-4e8f-8be9-0a592cc20391
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:51:32] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:51:32] "[37mGET /playing?id=78259c49-9851-4e8f-8be9-0a592cc20391 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:51:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:51:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 70185ffc-93da-45e0-a044-95eee6dff15b
+INFO:product_log:Created play job with id: 70185ffc-93da-45e0-a044-95eee6dff15b
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:52:45] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:52:45] "[37mGET /playing?id=70185ffc-93da-45e0-a044-95eee6dff15b HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:52:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:52:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: cfebe172-5513-4529-9cc2-8b7ce60448c8
+INFO:product_log:Created play job with id: cfebe172-5513-4529-9cc2-8b7ce60448c8
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:53:37] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 64f38476-d21e-4cb2-a884-a15432ad4216
+INFO:product_log:Created play job with id: 64f38476-d21e-4cb2-a884-a15432ad4216
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:54:03] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:54:03] "[37mGET /playing?id=64f38476-d21e-4cb2-a884-a15432ad4216 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:54:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:54:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: daffd22c-1977-4527-ab7b-a32dc9602fdd
+INFO:product_log:Created play job with id: daffd22c-1977-4527-ab7b-a32dc9602fdd
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:55:40] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:55:40] "[37mGET /playing?id=daffd22c-1977-4527-ab7b-a32dc9602fdd HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:55:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:55:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 8949e742-0c69-4304-b805-2c4a04c0a9e8
+INFO:product_log:Created play job with id: 8949e742-0c69-4304-b805-2c4a04c0a9e8
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:56:24] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:56:25] "[37mGET /playing?id=8949e742-0c69-4304-b805-2c4a04c0a9e8 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:56:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:56:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:56:33] "[37mGET /playing?id=8949e742-0c69-4304-b805-2c4a04c0a9e8 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:09] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:10] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:13] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:13] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:13] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 8563542f-0ecb-4e7c-85a5-3b0ff73fb971
+INFO:product_log:Created play job with id: 8563542f-0ecb-4e7c-85a5-3b0ff73fb971
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:15] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:15] "[37mGET /playing?id=8563542f-0ecb-4e7c-85a5-3b0ff73fb971 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 18:58:15] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:25] "[37mGET /playing?id=8949e742-0c69-4304-b805-2c4a04c0a9e8 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:31] "[37mGET /playing?id=8949e742-0c69-4304-b805-2c4a04c0a9e8 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:32] "[37mGET /playing?id=8949e742-0c69-4304-b805-2c4a04c0a9e8 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:34] "[37mGET /playing?id=8949e742-0c69-4304-b805-2c4a04c0a9e8 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:34] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:35] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:42] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:42] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:42] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:43] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:43] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 0e6072c5-5cc7-4552-b499-24febcb1d924
+INFO:product_log:Created play job with id: 0e6072c5-5cc7-4552-b499-24febcb1d924
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:44] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:44] "[37mGET /playing?id=0e6072c5-5cc7-4552-b499-24febcb1d924 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:44] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:01:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:17] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:43] "[37mGET /playing?id=0e6072c5-5cc7-4552-b499-24febcb1d924 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:43] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:43] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:43] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 7df23efc-447c-4f08-aace-2ea337e6af4f
+INFO:product_log:Created play job with id: 7df23efc-447c-4f08-aace-2ea337e6af4f
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:46] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:46] "[37mGET /playing?id=7df23efc-447c-4f08-aace-2ea337e6af4f HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:47] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:02:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: bc83326d-e2a8-4c38-94d8-2250597fab75
+INFO:product_log:Created play job with id: bc83326d-e2a8-4c38-94d8-2250597fab75
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:09] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:09] "[37mGET /playing?id=bc83326d-e2a8-4c38-94d8-2250597fab75 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:09] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:09] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:26] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:26] "[37mGET /playing?id=bc83326d-e2a8-4c38-94d8-2250597fab75 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:26] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:51] "[37mGET /playing?id=bc83326d-e2a8-4c38-94d8-2250597fab75 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:51] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:03:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:16] "[37mGET /playing?id=bc83326d-e2a8-4c38-94d8-2250597fab75 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:17] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:04:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:09] "[37mGET /playing?id=bc83326d-e2a8-4c38-94d8-2250597fab75 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:09] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:09] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:09] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:11] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:11] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:11] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 1d74be79-a23d-4164-a0c2-b5cfaf989e65
+INFO:product_log:Created play job with id: 1d74be79-a23d-4164-a0c2-b5cfaf989e65
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:12] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:12] "[37mGET /playing?id=1d74be79-a23d-4164-a0c2-b5cfaf989e65 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:12] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:13] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:13] "[37mGET /playing?id=1d74be79-a23d-4164-a0c2-b5cfaf989e65 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:14] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:05:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:20] "[37mGET /playing?id=1d74be79-a23d-4164-a0c2-b5cfaf989e65 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:20] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:22] "[35m[1mPOST /playing HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 312, in execute
+    application_iter = app(environ, start_response)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/ellis/Git/music_box/venv/lib/python3.8/site-packages/flask/app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:23] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:25] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:26] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:06:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:20] "[37mGET /playing?id=1d74be79-a23d-4164-a0c2-b5cfaf989e65 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:20] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:20] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:20] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:23] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:24] "[37mGET /playing?id=1d74be79-a23d-4164-a0c2-b5cfaf989e65 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:24] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:25] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:25] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:25] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 1b41fdb3-cfbe-4860-aac3-8f6c18bed0ca
+INFO:product_log:Created play job with id: 1b41fdb3-cfbe-4860-aac3-8f6c18bed0ca
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:26] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:26] "[37mGET /playing?id=1b41fdb3-cfbe-4860-aac3-8f6c18bed0ca HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:26] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:30] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:39] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:40] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:07:42] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:05] "[37mGET /playing?id=1b41fdb3-cfbe-4860-aac3-8f6c18bed0ca HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:05] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:08] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:08] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:08] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: c1442be4-b3bc-4d88-9f2a-38a7ab3bb499
+INFO:product_log:Created play job with id: c1442be4-b3bc-4d88-9f2a-38a7ab3bb499
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:31] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:31] "[37mGET /playing?id=c1442be4-b3bc-4d88-9f2a-38a7ab3bb499 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:31] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:09:43] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 1140c285-dd7a-4e89-8dcd-501c22f5b0f3
+INFO:product_log:Created play job with id: 1140c285-dd7a-4e89-8dcd-501c22f5b0f3
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:11:56] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:11:56] "[37mGET /playing?id=1140c285-dd7a-4e89-8dcd-501c22f5b0f3 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:11:56] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:11:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:12:00] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:12:03] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:12:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:12:27] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:15:58] "[37mGET /playing?id=1140c285-dd7a-4e89-8dcd-501c22f5b0f3 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:15:58] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:15:59] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:15:59] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:15:59] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 761e788a-f0ba-4032-8d23-69f0d9d02c9e
+INFO:product_log:Created play job with id: 761e788a-f0ba-4032-8d23-69f0d9d02c9e
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:01] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:01] "[37mGET /playing?id=761e788a-f0ba-4032-8d23-69f0d9d02c9e HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:01] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:01] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:26] "[37mGET /playing?id=761e788a-f0ba-4032-8d23-69f0d9d02c9e HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:26] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:28] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:28] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:28] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:28] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:28] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 47ca1525-1131-480a-9b06-5fd5355ac67f
+INFO:product_log:Created play job with id: 47ca1525-1131-480a-9b06-5fd5355ac67f
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:30] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:30] "[37mGET /playing?id=47ca1525-1131-480a-9b06-5fd5355ac67f HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:30] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:30] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:16:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:14] "[37mGET /playing?id=47ca1525-1131-480a-9b06-5fd5355ac67f HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:14] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:15] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:15] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:15] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:15] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:15] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: d6ba9360-683c-4874-a3cb-e7b5f30636e3
+INFO:product_log:Created play job with id: d6ba9360-683c-4874-a3cb-e7b5f30636e3
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:17] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:17] "[37mGET /playing?id=d6ba9360-683c-4874-a3cb-e7b5f30636e3 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:17] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:17] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:17:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /test/5
+INFO:application_log:Created worker with id: e018569d-b70a-4950-89fd-70cc1c1cfbd5
+INFO:product_log:Created play job with id: e018569d-b70a-4950-89fd-70cc1c1cfbd5
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:19:40] "[32mGET /play?id=6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:19:40] "[37mGET /playing?id=e018569d-b70a-4950-89fd-70cc1c1cfbd5 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:19:40] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:19:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:19:51] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 78216814-57c5-4f19-b928-57039195db01
+INFO:product_log:Created play job with id: 78216814-57c5-4f19-b928-57039195db01
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:20:14] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:20:14] "[37mGET /playing?id=78216814-57c5-4f19-b928-57039195db01 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:20:14] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:20:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:20:14] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:20:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 19:20:20] "[37mPOST /playing HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:23] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:25] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:25] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:25] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 0c89cdd5-f540-43d6-b23f-f5a5836df1b7
+INFO:product_log:Created play job with id: 0c89cdd5-f540-43d6-b23f-f5a5836df1b7
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:27] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:27] "[37mGET /playing?id=0c89cdd5-f540-43d6-b23f-f5a5836df1b7 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:27] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: d0e01900-1449-4fbf-8391-cc19710ed1e7
+INFO:product_log:Created play job with id: d0e01900-1449-4fbf-8391-cc19710ed1e7
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:47] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:47] "[37mGET /playing?id=d0e01900-1449-4fbf-8391-cc19710ed1e7 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:47] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:47] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:47:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:product_log:Attempting to queue: /Users/ellis/Git/music_box/flask_server/uploads/Lizst_.5.mp3
+INFO:application_log:Created worker with id: 850d483d-4fd9-4899-a207-c2dac28284ed
+INFO:product_log:Created play job with id: 850d483d-4fd9-4899-a207-c2dac28284ed
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:48:56] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:48:56] "[37mGET /playing?id=850d483d-4fd9-4899-a207-c2dac28284ed HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:48:56] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:48:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:48:56] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:48:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:product_log:Attempting to queue: /test/5
+INFO:application_log:Created worker with id: efb5c7ea-d5b1-420a-9141-0c84c70f9e13
+INFO:product_log:Created play job with id: efb5c7ea-d5b1-420a-9141-0c84c70f9e13
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:51:25] "[32mGET /play?id=6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:51:25] "[37mGET /playing?id=efb5c7ea-d5b1-420a-9141-0c84c70f9e13 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:51:25] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 20:51:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:38:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:38:31] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:38:52] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:38:52] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:38:52] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:46:56] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:46:56] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:46:57] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:46:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:47:52] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:47:52] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:48:02] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:48:02] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:48:02] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:48:04] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:48:04] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:48:04] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:48:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:49:17] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:49:17] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:49:17] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:49:19] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:49:19] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:49:19] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:50:00] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:50:00] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:50:00] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:50:02] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:50:02] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 22:50:02] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 23:54:01] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 23:54:01] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 23:54:01] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 23:54:04] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 23:54:04] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2020 23:54:04] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting process
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:11:26] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:11:26] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:11:26] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting process
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:13:44] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:13:44] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:13:44] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting process
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:16:13] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:16:13] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:16:13] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting process
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:18:43] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:21:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:04] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:04] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:04] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:04] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:04] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:09] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:10] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:10] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:10] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:17] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:22:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:05] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:05] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:08] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:08] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:08] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:35] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:35] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:24:35] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:25:37] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:25:37] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:29:02] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:29:02] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:29:02] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:multiprocessing_log:Returning...
+INFO:multiprocessing_log:Running...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:29:12] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:29:12] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:29:12] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:32] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:32] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:32] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:36] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:36] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:36] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:38] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:Running...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:38] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:31:38] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:35:54] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:35:54] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:35:54] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:41:42] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:41:42] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:41:42] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:Returning...
+INFO:multiprocessing_log:function test called
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:42:52] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:<_io.BufferedReader name=8>
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:43:00] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:43:00] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:43:44] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:43:44] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:43:44] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:43:45] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:<_io.BufferedReader name=8>
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:44:33] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:<_io.BufferedReader name=8>
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:45:06] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:45:06] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:45:06] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:45:08] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:<_io.BufferedReader name=8>
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:45:08] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:45:08] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:46:39] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:46:39] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:46:39] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:46:42] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:46:42] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:46:42] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:b'<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-GB"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="xofsL0gA5o6HOP3yvHaQMw==">(function(){window.google={kEI:\'4v9CX9b-Gc-Yaf7ujcAK\',kEXPI:\'0,18167,183956,3,4,32,4,1151580,5663,731,223,756,4349,206,2415,789,10,1226,364,925,574,611,206,383,246,5,1354,648,371,282,2328,470,209,106,3,1051,90,55,137,865,29,88,103,83,265,702,33,244,1,34,20,1119549,1197746,303216,26305,13677,4855,32692,15247,867,17444,11240,9188,8384,4859,1361,9290,3028,4740,11031,3,1807,4020,978,7931,5297,2054,920,873,1217,2383,600,2777,3646,14526,4518,1398,1379,919,2277,8,2796,1593,1165,114,2212,530,149,1103,840,517,1137,278,107,157,4101,108,204,1136,3,2063,606,2023,1777,143,377,1947,2209,113,328,1284,16,3163,2011,1812,1787,3227,2845,7,6068,6286,4454,642,2449,3685,1742,4929,108,1710,1697,908,2,941,2614,2397,7468,2179,1098,3,576,970,44,1,820,10,4615,148,189,3312,2489,2252,1992,620,1330,47,1744,4,1528,2304,224,1012,271,874,405,1860,1817,278,298,1791,52,214,1107,95,961,464,459,116,1439,4067,2265,86,3,2283,962,35,1426,69,2415,200,2557,254,932,821,690,1542,426,416,129,165,1463,1882,108,79,321,198,25,887,256,309,1119,30,470,833,445,314,645,1062,223,152,504,659,23,318,163,17,604,655,650,137,141,62,52,535,249,989,56,946,255,256,1138,72,623,380,345,159,346,12,1445,4,516,116,120,210,337,957,475,2,95,1389,155,1667,60,18,93,3,1499,373,621,588,165,616,22,21,107,349,1091,1,403,340,58,5769909,3375,5997323,2801217,549,333,444,1,2,80,1,900,896,1,9,2,2551,1,748,141,59,736,563,1,4265,1,1,2,1017,9,305,3299,248,527,2,19,24,22,30,1,7,22,62,1,12,4,1,4,69,3501390,20458660,53,2704777\',kBL:\'-bmB\'};google.sn=\'webhp\';google.kHL=\'en-GB\';})();(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var c;a&&(!a.getAttribute||!(c=a.getAttribute("eid")));)a=a.parentNode;return c||google.kEI};google.getLEI=function(a){for(var c=null;a&&(!a.getAttribute||!(c=a.getAttribute("leid")));)a=a.parentNode;return c};google.ml=function(){return null};google.time=function(){return Date.now()};google.log=function(a,c,b,d,g){if(b=google.logUrl(a,c,b,d,g)){a=new Image;var e=google.lc,f=google.li;e[f]=a;a.onerror=a.onload=a.onabort=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel.lu(b);a.src=b;google.li=f+1}};google.logUrl=function(a,c,b,d,g){var e="",f=google.ls||"";b||-1!=c.search("&ei=")||(e="&ei="+google.getEI(d),-1==c.search("&lei=")&&(d=google.getLEI(d))&&(e+="&lei="+d));d="";!b&&google.cshid&&-1==c.search("&cshid=")&&"slh"!=a&&(d="&cshid="+google.cshid);b=b||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+c+e+f+"&zx="+google.time()+d;/^http:/i.test(b)&&"https:"==window.location.protocol&&(google.ml(Error("a"),!1,{src:b,glmm:1}),b="");return b};}).call(this);(function(){google.y={};google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.lm=[];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};}).call(this);google.f={};(function(){\n'
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:53:36] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:53:36] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:53:36] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:b'<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-GB"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="ORASSwO0Xm2RWQKcDKKHTg==">(function(){window.google={kEI:\'gAFDX5HNMseoa-T6nQg\',kEXPI:\'0,202123,3,4,32,4,1151580,5663,731,223,5104,207,3204,10,1226,364,1499,611,206,383,246,5,1014,340,648,371,282,2798,315,3,374,677,90,193,335,530,28,85,106,349,735,243,2,1119602,1197707,527,329033,13677,4855,32692,15247,864,17447,1954,9286,9188,8384,4858,1362,9290,3024,4744,2646,8387,1808,4020,978,6242,1689,5297,2054,920,873,1217,2383,592,6430,14528,234,4282,2778,919,2277,8,2796,1593,1279,2212,239,291,149,1103,840,517,1522,4258,108,204,1136,3,2063,606,2023,1920,377,1947,2229,93,328,1284,16,2927,2246,1813,1787,3227,2845,7,6068,6286,4455,641,2450,3684,1743,4928,108,1456,1951,908,2,941,2614,2397,9647,1098,3,576,970,44,1,820,10,4615,148,189,3313,743,1299,47,401,2250,1991,1998,1744,4,498,1030,2304,1236,271,874,407,1858,2095,298,73,1718,52,214,1202,961,463,460,120,1432,674,3396,1036,1229,86,3,3280,1426,69,2615,2070,741,1753,690,1968,416,129,668,192,2650,187,321,198,25,887,254,310,689,377,10,43,31,130,340,703,130,529,230,1707,224,655,659,23,1546,211,339,311,340,52,535,249,989,52,828,122,255,1396,68,11,994,345,159,345,13,443,6,994,6,87,259,169,117,330,336,958,407,68,2,96,2568,965,1350,37,336,621,1372,39,110,1438,1,252,1,150,340,10,50,400,5769506,8801916,882,444,1,2,31,49,1,900,896,1,9,2,2551,1,748,141,59,736,563,1,4265,1,1,2,1017,9,305,3299,248,527,2,19,26,20,30,1,7,22,62,1,12,4,1,4,69,3501390,20458660,52,2701839\',kBL:\'-bmB\'};google.sn=\'webhp\';google.kHL=\'en-GB\';})();(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var c;a&&(!a.getAttribute||!(c=a.getAttribute("eid")));)a=a.parentNode;return c||google.kEI};google.getLEI=function(a){for(var c=null;a&&(!a.getAttribute||!(c=a.getAttribute("leid")));)a=a.parentNode;return c};google.ml=function(){return null};google.time=function(){return Date.now()};google.log=function(a,c,b,d,g){if(b=google.logUrl(a,c,b,d,g)){a=new Image;var e=google.lc,f=google.li;e[f]=a;a.onerror=a.onload=a.onabort=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel.lu(b);a.src=b;google.li=f+1}};google.logUrl=function(a,c,b,d,g){var e="",f=google.ls||"";b||-1!=c.search("&ei=")||(e="&ei="+google.getEI(d),-1==c.search("&lei=")&&(d=google.getLEI(d))&&(e+="&lei="+d));d="";!b&&google.cshid&&-1==c.search("&cshid=")&&"slh"!=a&&(d="&cshid="+google.cshid);b=b||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+c+e+f+"&zx="+google.time()+d;/^http:/i.test(b)&&"https:"==window.location.protocol&&(google.ml(Error("a"),!1,{src:b,glmm:1}),b="");return b};}).call(this);(function(){google.y={};google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.lm=[];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};}).call(this);google.f={};(function(){\n'
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:59:14] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:59:14] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:59:14] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:59:17] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:59:18] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 00:59:18] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:[b'<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-GB"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="cmoezmRs+RQ9bsTGP1xidQ==">(function(){window.google={kEI:\'1gJDX-CPDI2elwTQqrzIBQ\',kEXPI:\'0,18167,183956,3,4,32,4,1151581,5662,731,223,5105,206,3204,10,1226,364,1499,612,205,383,246,5,1354,648,370,283,1661,1137,315,3,1050,91,40,132,20,894,88,103,349,501,119,81,33,12,115,7,17,95,1119602,1197696,303266,26305,13677,4855,32691,15248,867,17444,11240,9188,8384,4858,1362,9290,3024,2821,1923,11033,1808,4020,978,7931,5297,2972,875,37,1180,2975,6430,14528,4516,2778,919,2277,8,2796,1594,1164,114,2212,530,149,1103,840,517,1137,278,107,4258,312,1136,3,2063,606,2023,1733,43,144,377,1947,2229,93,328,1284,16,2927,2246,1814,1786,3227,2845,7,6068,6286,4454,642,2450,3684,1742,4929,108,1710,1697,908,2,941,2614,544,1849,4,12,7458,229,10,1938,1098,3,346,230,970,44,1,820,10,4615,148,189,3313,2488,2251,1992,1998,1744,4,1528,2304,1242,265,874,405,1861,2094,298,73,1718,52,214,1202,961,463,460,120,1435,671,3157,239,1035,717,513,86,3,3280,1426,69,2615,2559,252,501,1252,690,1968,416,129,669,2840,189,320,198,25,889,30,222,310,504,185,377,10,43,31,471,832,528,231,1707,224,151,504,659,22,1758,650,137,203,52,535,249,991,991,9,255,255,1141,68,11,994,346,160,150,194,12,1443,6,483,149,330,337,957,427,48,2,95,498,168,127,4,6,57,527,157,1946,894,46,454,372,496,124,448,924,41,457,102,257,595,135,2,1,277,126,340,58,180,5769729,3522,8798393,549,333,444,1,2,80,1,900,896,1,9,2,2551,1,748,141,59,736,563,1,4265,1,1,2,1017,9,305,3299,248,527,2,19,25,21,30,1,7,22,62,1,12,4,1,4,69,3501390,20458660,53,2704777\',kBL:\'-bmB\'};google.sn=\'webhp\';google.kHL=\'en-GB\';})();(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var c;a&&(!a.getAttribute||!(c=a.getAttribute("eid")));)a=a.parentNode;return c||google.kEI};google.getLEI=function(a){for(var c=null;a&&(!a.getAttribute||!(c=a.getAttribute("leid")));)a=a.parentNode;return c};google.ml=function(){return null};google.time=function(){return Date.now()};google.log=function(a,c,b,d,g){if(b=google.logUrl(a,c,b,d,g)){a=new Image;var e=google.lc,f=google.li;e[f]=a;a.onerror=a.onload=a.onabort=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel.lu(b);a.src=b;google.li=f+1}};google.logUrl=function(a,c,b,d,g){var e="",f=google.ls||"";b||-1!=c.search("&ei=")||(e="&ei="+google.getEI(d),-1==c.search("&lei=")&&(d=google.getLEI(d))&&(e+="&lei="+d));d="";!b&&google.cshid&&-1==c.search("&cshid=")&&"slh"!=a&&(d="&cshid="+google.cshid);b=b||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+c+e+f+"&zx="+google.time()+d;/^http:/i.test(b)&&"https:"==window.location.protocol&&(google.ml(Error("a"),!1,{src:b,glmm:1}),b="");return b};}).call(this);(function(){google.y={};google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.lm=[];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};}).call(this);google.f={};(function(){\n', b'document.documentElement.addEventListener("submit",function(b){var a;if(a=b.target){var c=a.getAttribute("data-submitfalse");a="1"==c||"q"==c&&!a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener("click",function(b){var a;a:{for(a=b.target;a&&a!=document.documentElement;a=a.parentElement)if("A"==a.tagName){a="1"==a.getAttribute("data-nohref");break a}a=!1}a&&b.preventDefault()},!0);}).call(this);\n', b'var a=window.location,b=a.href.indexOf("#");if(0<=b){var c=a.href.substring(b+1);/(^|&)q=/.test(c)&&-1==c.indexOf("#")&&a.replace("/search?"+c.replace(/(^|&)fp=[^&]*/g,"")+"&cad=h")};</script><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}\n', b'</style><style>body,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#36c}.q{color:#00c}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}body{background:#fff;color:#000}a{color:#11c;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#36c}a:visited{color:#551a8b}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px}.lsbb{display:block}#fll a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}</style><script nonce="cmoezmRs+RQ9bsTGP1xidQ=="></script></head><body bgcolor="#fff"><script nonce="cmoezmRs+RQ9bsTGP1xidQ==">(function(){var src=\'/images/nav_logo229.png\';var iesg=false;document.body.onload = function(){window.n && window.n();if (document.images){new Image().src=src;}\n', b'if (!iesg){document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();}\n', b'}\n', b'})();</script><div id="mngb"><div id=gbar><nobr><b class=gb1>Search</b> <a class=gb1 href="https://www.google.co.uk/imghp?hl=en&tab=wi">Images</a> <a class=gb1 href="https://maps.google.co.uk/maps?hl=en&tab=wl">Maps</a> <a class=gb1 href="https://play.google.com/?hl=en&tab=w8">Play</a> <a class=gb1 href="https://www.youtube.com/?gl=GB&tab=w1">YouTube</a> <a class=gb1 href="https://news.google.com/?tab=wn">News</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 href="https://drive.google.com/?tab=wo">Drive</a> <a class=gb1 style="text-decoration:none" href="https://www.google.co.uk/intl/en/about/products?tab=wh"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.co.uk/history/optout?hl=en" class=gb4>Web History</a> | <a  href="/preferences?hl=en" class=gb4>Settings</a> | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=%0000000" class=gb4>Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div></div><center><br clear="all" id="lgpd"><div id="lga"><img alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272" id="hplogo"><br><br></div><form action="/search" name="f"><table cellpadding="0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align="center" nowrap=""><input name="ie" value="ISO-8859-1" type="hidden"><input value="en-GB" name="hl" type="hidden"><input name="source" type="hidden" value="hp"><input name="biw" type="hidden"><input name="bih" type="hidden"><div class="ds" style="height:32px;margin:4px 0"><input class="lst" style="margin:0;padding:5px 8px 0 6px;vertical-align:top;color:#000" autocomplete="off" value="" title="Google Search" maxlength="2048" name="q" size="57"></div><br style="line-height:0"><span class="ds"><span class="lsbb"><input class="lsb" value="Google Search" name="btnG" type="submit"></span></span><span class="ds"><span class="lsbb"><input class="lsb" id="tsuid1" value="I\'m Feeling Lucky" name="btnI" type="submit"><script nonce="cmoezmRs+RQ9bsTGP1xidQ==">(function(){var id=\'tsuid1\';document.getElementById(id).onclick = function(){if (this.form.q.value){this.checked = 1;if (this.form.iflsig)this.form.iflsig.disabled = false;}\n', b'else top.location=\'/doodles/\';};})();</script><input value="AINFCbYAAAAAX0MQ5uEy1sd5bRtMF0aQUzGz2bB6zVrb" name="iflsig" type="hidden"></span></span></td><td class="fl sblc" align="left" nowrap="" width="25%"><a href="/advanced_search?hl=en-GB&amp;authuser=0">Advanced search</a></td></tr></table><input id="gbv" name="gbv" type="hidden" value="1"><script nonce="cmoezmRs+RQ9bsTGP1xidQ==">(function(){var a,b="1";if(document&&document.getElementById)if("undefined"!=typeof XMLHttpRequest)b="2";else if("undefined"!=typeof ActiveXObject){var c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d),b="2"}catch(h){}}a=b;if("2"==a&&-1==location.search.indexOf("&gbv=2")){var f=google.gbvu,g=document.getElementById("gbv");g&&(g.value=a);f&&window.setTimeout(function(){location.href=f},0)};}).call(this);</script></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="fll"><a href="/intl/en/ads/">Advertising\xa0Programmes</a><a href="/services/">Business Solutions</a><a href="/intl/en/about.html">About Google</a><a href="https://www.google.com/setprefdomain?prefdom=GB&amp;prev=https://www.google.co.uk/&amp;sig=K_nxQCLWcjpGNn9Nex719GyqZqN1w%3D">Google.co.uk</a></div></div><p style="font-size:8pt;color:#767676">&copy; 2020 - <a href="/intl/en/policies/privacy/">Privacy</a> - <a href="/intl/en/policies/terms/">Terms</a></p></span></center><script nonce="cmoezmRs+RQ9bsTGP1xidQ==">(function(){window.google.cdo={height:0,width:0};(function(){var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}a&&b&&(a!=google.cdo.width||b!=google.cdo.height)&&google.log("","","/client_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI);}).call(this);})();(function(){var u=\'/xjs/_/js/k\\x3dxjs.hp.en.JEBLbdHGMZ4.O/m\\x3dsb_he,d/am\\x3dAJ5gcw/d\\x3d1/rs\\x3dACT90oE5v_LRqw1GtjavBuThAC7uj1vhog\';\n', b'setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu=\'/xjs/_/js/k\\x3dxjs.hp.en.JEBLbdHGMZ4.O/m\\x3dsb_he,d/am\\x3dAJ5gcw/d\\x3d1/rs\\x3dACT90oE5v_LRqw1GtjavBuThAC7uj1vhog\';})();function _DumpException(e){throw e;}\n', b'function _F_installCss(c){}\n', b"(function(){google.jl={dw:false,em:[],emw:false,lls:'default',pdt:0,snet:true,uwp:true};})();(function(){var pmc='{\\x22d\\x22:{},\\x22sb_he\\x22:{\\x22agen\\x22:true,\\x22cgen\\x22:true,\\x22client\\x22:\\x22heirloom-hp\\x22,\\x22dh\\x22:true,\\x22dhqt\\x22:true,\\x22ds\\x22:\\x22\\x22,\\x22ffql\\x22:\\x22en\\x22,\\x22fl\\x22:true,\\x22host\\x22:\\x22google.com\\x22,\\x22isbh\\x22:28,\\x22jsonp\\x22:true,\\x22msgs\\x22:{\\x22cibl\\x22:\\x22Clear Search\\x22,\\x22dym\\x22:\\x22Did you mean:\\x22,\\x22lcky\\x22:\\x22I\\\\u0026#39;m Feeling Lucky\\x22,\\x22lml\\x22:\\x22Learn more\\x22,\\x22oskt\\x22:\\x22Input tools\\x22,\\x22psrc\\x22:\\x22This search was removed from your \\\\u003Ca href\\x3d\\\\\\x22/history\\\\\\x22\\\\u003EWeb History\\\\u003C/a\\\\u003E\\x22,\\x22psrl\\x22:\\x22Remove\\x22,\\x22sbit\\x22:\\x22Search by image\\x22,\\x22srch\\x22:\\x22Google Search\\x22},\\x22ovr\\x22:{},\\x22pq\\x22:\\x22\\x22,\\x22refpd\\x22:true,\\x22rfs\\x22:[],\\x22sbpl\\x22:16,\\x22sbpr\\x22:16,\\x22scd\\x22:10,\\x22stok\\x22:\\x22I6s0wxKHGHdpRLxUMJmqFlaos70\\x22,\\x22uhde\\x22:false}}';google.pmc=JSON.parse(pmc);})();</script>        </body></html>"]
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:03:04] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:03:04] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:03:04] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:03:07] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:03:07] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:03:07] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:[b'<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-GB"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="NdeRJj4x1VIOec7hffClgA==">(function(){window.google={kEI:\'uwNDX-rgGKaIlwSLgbrAAw\',kEXPI:\'0,202123,3,4,32,4,570854,580727,5662,731,223,5105,206,2415,789,10,1226,364,1499,612,205,383,246,5,1185,169,648,370,283,2799,314,3,1050,91,47,146,379,486,29,83,48,59,349,619,105,11,245,52,75,1119475,1197790,486,328991,13677,4855,32692,15247,867,17444,11240,9188,8384,4858,1362,9291,3022,4745,2646,8387,1808,4020,978,7931,5297,2054,920,873,1214,2978,2785,3645,14527,4517,1397,1381,919,2277,8,2796,887,706,1279,2212,530,149,1943,517,1523,157,4100,312,1136,3,2063,606,2023,546,1231,143,377,1947,2229,93,328,1284,16,2927,2246,1813,1787,603,2626,2843,7,6068,6286,4454,642,2450,3684,1743,4928,108,3407,908,2,971,2584,2399,6333,1135,2177,1098,3,346,230,970,44,1,820,10,4615,148,189,1665,1647,2489,2252,3989,83,1661,4,1528,2304,1236,271,874,405,1860,2095,298,73,1718,52,214,1202,961,464,459,120,1435,4,4217,882,1229,86,2019,1264,1426,69,1,1319,347,752,196,2811,932,821,690,1542,426,416,125,1632,1730,151,245,264,198,25,887,254,310,689,377,10,44,30,1173,130,756,1711,108,115,151,504,111,548,23,1544,213,650,278,62,53,2,9,523,249,990,51,949,256,256,737,473,9,994,346,503,13,535,908,6,346,169,117,330,336,828,130,475,2,96,792,4,6,373,1187,4,1167,896,302,152,7,30,335,69,427,126,289,1123,755,792,1,403,340,5769966,1874,8800042,549,333,444,1,2,80,1,900,896,1,9,2,2551,1,748,141,59,736,563,1,4265,1,1,2,1017,9,305,3299,248,527,2,19,24,22,30,1,7,22,62,1,12,4,1,4,69,3501390,20458659,54,2701838\',kBL:\'-bmB\'};google.sn=\'webhp\';google.kHL=\'en-GB\';})();(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var c;a&&(!a.getAttribute||!(c=a.getAttribute("eid")));)a=a.parentNode;return c||google.kEI};google.getLEI=function(a){for(var c=null;a&&(!a.getAttribute||!(c=a.getAttribute("leid")));)a=a.parentNode;return c};google.ml=function(){return null};google.time=function(){return Date.now()};google.log=function(a,c,b,d,g){if(b=google.logUrl(a,c,b,d,g)){a=new Image;var e=google.lc,f=google.li;e[f]=a;a.onerror=a.onload=a.onabort=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel.lu(b);a.src=b;google.li=f+1}};google.logUrl=function(a,c,b,d,g){var e="",f=google.ls||"";b||-1!=c.search("&ei=")||(e="&ei="+google.getEI(d),-1==c.search("&lei=")&&(d=google.getLEI(d))&&(e+="&lei="+d));d="";!b&&google.cshid&&-1==c.search("&cshid=")&&"slh"!=a&&(d="&cshid="+google.cshid);b=b||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+c+e+f+"&zx="+google.time()+d;/^http:/i.test(b)&&"https:"==window.location.protocol&&(google.ml(Error("a"),!1,{src:b,glmm:1}),b="");return b};}).call(this);(function(){google.y={};google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.lm=[];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};}).call(this);google.f={};(function(){\n', b'document.documentElement.addEventListener("submit",function(b){var a;if(a=b.target){var c=a.getAttribute("data-submitfalse");a="1"==c||"q"==c&&!a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener("click",function(b){var a;a:{for(a=b.target;a&&a!=document.documentElement;a=a.parentElement)if("A"==a.tagName){a="1"==a.getAttribute("data-nohref");break a}a=!1}a&&b.preventDefault()},!0);}).call(this);\n', b'var a=window.location,b=a.href.indexOf("#");if(0<=b){var c=a.href.substring(b+1);/(^|&)q=/.test(c)&&-1==c.indexOf("#")&&a.replace("/search?"+c.replace(/(^|&)fp=[^&]*/g,"")+"&cad=h")};</script><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}\n', b'</style><style>body,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#36c}.q{color:#00c}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}body{background:#fff;color:#000}a{color:#11c;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#36c}a:visited{color:#551a8b}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px}.lsbb{display:block}#fll a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}</style><script nonce="NdeRJj4x1VIOec7hffClgA=="></script></head><body bgcolor="#fff"><script nonce="NdeRJj4x1VIOec7hffClgA==">(function(){var src=\'/images/nav_logo229.png\';var iesg=false;document.body.onload = function(){window.n && window.n();if (document.images){new Image().src=src;}\n', b'if (!iesg){document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();}\n', b'}\n', b'})();</script><div id="mngb"><div id=gbar><nobr><b class=gb1>Search</b> <a class=gb1 href="https://www.google.co.uk/imghp?hl=en&tab=wi">Images</a> <a class=gb1 href="https://maps.google.co.uk/maps?hl=en&tab=wl">Maps</a> <a class=gb1 href="https://play.google.com/?hl=en&tab=w8">Play</a> <a class=gb1 href="https://www.youtube.com/?gl=GB&tab=w1">YouTube</a> <a class=gb1 href="https://news.google.com/?tab=wn">News</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 href="https://drive.google.com/?tab=wo">Drive</a> <a class=gb1 style="text-decoration:none" href="https://www.google.co.uk/intl/en/about/products?tab=wh"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.co.uk/history/optout?hl=en" class=gb4>Web History</a> | <a  href="/preferences?hl=en" class=gb4>Settings</a> | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=%0000000" class=gb4>Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div></div><center><br clear="all" id="lgpd"><div id="lga"><img alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272" id="hplogo"><br><br></div><form action="/search" name="f"><table cellpadding="0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align="center" nowrap=""><input name="ie" value="ISO-8859-1" type="hidden"><input value="en-GB" name="hl" type="hidden"><input name="source" type="hidden" value="hp"><input name="biw" type="hidden"><input name="bih" type="hidden"><div class="ds" style="height:32px;margin:4px 0"><input class="lst" style="margin:0;padding:5px 8px 0 6px;vertical-align:top;color:#000" autocomplete="off" value="" title="Google Search" maxlength="2048" name="q" size="57"></div><br style="line-height:0"><span class="ds"><span class="lsbb"><input class="lsb" value="Google Search" name="btnG" type="submit"></span></span><span class="ds"><span class="lsbb"><input class="lsb" id="tsuid1" value="I\'m Feeling Lucky" name="btnI" type="submit"><script nonce="NdeRJj4x1VIOec7hffClgA==">(function(){var id=\'tsuid1\';document.getElementById(id).onclick = function(){if (this.form.q.value){this.checked = 1;if (this.form.iflsig)this.form.iflsig.disabled = false;}\n', b'else top.location=\'/doodles/\';};})();</script><input value="AINFCbYAAAAAX0MRyyactcIIAh_25PPfGI_E9aacZxtb" name="iflsig" type="hidden"></span></span></td><td class="fl sblc" align="left" nowrap="" width="25%"><a href="/advanced_search?hl=en-GB&amp;authuser=0">Advanced search</a></td></tr></table><input id="gbv" name="gbv" type="hidden" value="1"><script nonce="NdeRJj4x1VIOec7hffClgA==">(function(){var a,b="1";if(document&&document.getElementById)if("undefined"!=typeof XMLHttpRequest)b="2";else if("undefined"!=typeof ActiveXObject){var c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d),b="2"}catch(h){}}a=b;if("2"==a&&-1==location.search.indexOf("&gbv=2")){var f=google.gbvu,g=document.getElementById("gbv");g&&(g.value=a);f&&window.setTimeout(function(){location.href=f},0)};}).call(this);</script></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="fll"><a href="/intl/en/ads/">Advertising\xa0Programmes</a><a href="/services/">Business Solutions</a><a href="/intl/en/about.html">About Google</a><a href="https://www.google.com/setprefdomain?prefdom=GB&amp;prev=https://www.google.co.uk/&amp;sig=K_zscxZRNIMZIZN3Tw28rGo-4XA-s%3D">Google.co.uk</a></div></div><p style="font-size:8pt;color:#767676">&copy; 2020 - <a href="/intl/en/policies/privacy/">Privacy</a> - <a href="/intl/en/policies/terms/">Terms</a></p></span></center><script nonce="NdeRJj4x1VIOec7hffClgA==">(function(){window.google.cdo={height:0,width:0};(function(){var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}a&&b&&(a!=google.cdo.width||b!=google.cdo.height)&&google.log("","","/client_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI);}).call(this);})();(function(){var u=\'/xjs/_/js/k\\x3dxjs.hp.en.JEBLbdHGMZ4.O/m\\x3dsb_he,d/am\\x3dAJ5gcw/d\\x3d1/rs\\x3dACT90oE5v_LRqw1GtjavBuThAC7uj1vhog\';\n', b'setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu=\'/xjs/_/js/k\\x3dxjs.hp.en.JEBLbdHGMZ4.O/m\\x3dsb_he,d/am\\x3dAJ5gcw/d\\x3d1/rs\\x3dACT90oE5v_LRqw1GtjavBuThAC7uj1vhog\';})();function _DumpException(e){throw e;}\n', b'function _F_installCss(c){}\n', b"(function(){google.jl={dw:false,em:[],emw:false,lls:'default',pdt:0,snet:true,uwp:true};})();(function(){var pmc='{\\x22d\\x22:{},\\x22sb_he\\x22:{\\x22agen\\x22:true,\\x22cgen\\x22:true,\\x22client\\x22:\\x22heirloom-hp\\x22,\\x22dh\\x22:true,\\x22dhqt\\x22:true,\\x22ds\\x22:\\x22\\x22,\\x22ffql\\x22:\\x22en\\x22,\\x22fl\\x22:true,\\x22host\\x22:\\x22google.com\\x22,\\x22isbh\\x22:28,\\x22jsonp\\x22:true,\\x22msgs\\x22:{\\x22cibl\\x22:\\x22Clear Search\\x22,\\x22dym\\x22:\\x22Did you mean:\\x22,\\x22lcky\\x22:\\x22I\\\\u0026#39;m Feeling Lucky\\x22,\\x22lml\\x22:\\x22Learn more\\x22,\\x22oskt\\x22:\\x22Input tools\\x22,\\x22psrc\\x22:\\x22This search was removed from your \\\\u003Ca href\\x3d\\\\\\x22/history\\\\\\x22\\\\u003EWeb History\\\\u003C/a\\\\u003E\\x22,\\x22psrl\\x22:\\x22Remove\\x22,\\x22sbit\\x22:\\x22Search by image\\x22,\\x22srch\\x22:\\x22Google Search\\x22},\\x22ovr\\x22:{},\\x22pq\\x22:\\x22\\x22,\\x22refpd\\x22:true,\\x22rfs\\x22:[],\\x22sbpl\\x22:16,\\x22sbpr\\x22:16,\\x22scd\\x22:10,\\x22stok\\x22:\\x22SjeC8M6QIxwLoMSAzwNBYwhCm-I\\x22,\\x22uhde\\x22:false}}';google.pmc=JSON.parse(pmc);})();</script>        </body></html>"]
+INFO:callback-log:loaded redirect function flask_server.utils.callbacks
+INFO:callback-log:loaded app context
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:04:24] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:04:24] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:04:24] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:04:26] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:[b'https://www.google.com\n']
+INFO:callback-log:loaded redirect function flask_server.utils.callbacks
+INFO:callback-log:loaded app context
+INFO:multiprocessing_log:post-callback
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:05:02] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:05:02] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:05:56] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:05:56] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:05:56] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:multiprocessing_log:[b'https://www.google.com\n']
+INFO:callback-log:loaded redirect function flask_server.utils.callbacks
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:06:02] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:callback-log:loaded app context
+INFO:multiprocessing_log:post-callback
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:06:25] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 01:06:25] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:29:04] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:29:04] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:29:04] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function test called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:29:08] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:[b'https://www.google.com\n']
+INFO:callback-log:loaded redirect function flask_server.utils.callbacks
+INFO:callback-log:loaded app context
+INFO:multiprocessing_log:post-callback
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:29:08] "[37mGET /playing?id=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:29:08] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:37:29] "[37mGET /songs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:37:29] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:37:29] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:37:56] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:Loaded audioManager module from flask_server.utils.audioManager
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:16] "[33mGET /play?id=0 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:18] "[33mGET /play?id=0 HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:multiprocessing_log:Returning...
+INFO:multiprocessing_log:Running...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:21] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:21] "[33mGET /play?id=0 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:22] "[33mGET /static/style.songs.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:22] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Called openInThread
+INFO:multiprocessing_log:Starting thread
+INFO:multiprocessing_log:function playFile called
+INFO:multiprocessing_log:Returning...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:24] "[32mGET /play?id=1 HTTP/1.1[0m" 302 -
+INFO:multiprocessing_log:Running...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:24] "[33mGET /play?id=0 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:24] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Running...
+INFO:werkzeug:127.0.0.1 - - [24/Aug/2020 11:38:26] "[33mGET /static/main.js HTTP/1.1[0m" 404 -
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...
+INFO:multiprocessing_log:Running...

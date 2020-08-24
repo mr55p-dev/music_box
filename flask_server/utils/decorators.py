@@ -1,4 +1,4 @@
-# from functools import wraps
+from functools import wraps
 # from flask import current_app
 # from flask_login import current_user
 # from flask_server.database.models import User
@@ -28,23 +28,23 @@
 #         return func(*args, **kwargs)
 #     return wrapper
 
-# def trace(func):
-#     """
-#     Allows you to see the arguments and name of the decorated function
-#     in realtime with a small wrapper
-#     """
-#     @wraps(func)
-#     def wrapper(*args, **kwargs):
-#         print(f'''
-#         Trace: function {func.__name__}\n
-#         With args: {args}\n
-#         Keyword arguments: {kwargs}''')
+def trace(func):
+    """
+    Allows you to see the arguments and name of the decorated function
+    in realtime with a small wrapper
+    """
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        print(f'''
+        Trace: function {func.__name__}\n
+        With args: {args}\n
+        Keyword arguments: {kwargs}''')
 
-#         ret = func(*args, **kwargs)
+        ret = func(*args, **kwargs)
 
-#         print(f'''
-#             Trace: function {func.__name__}\n
-#             Returned: {ret}
-#             ''')
-#         return func(*args, **kwargs)
+        print(f'''
+            Trace: function {func.__name__}\n
+            Returned: {ret}
+            ''')
+        return func(*args, **kwargs)
 

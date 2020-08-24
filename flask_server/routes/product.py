@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app
 from flask_login import login_required
-from flask_server import db
+from flask_server import application_log, db
 from flask_server.database.models import Song
-from flask_server.pool.assign import add_to_queue
+from flask_server.utils.audioManager import openInThread
 from werkzeug.utils import secure_filename
 import os
 import logging
@@ -74,13 +74,13 @@ def save_song():
 @product.route('/upload', methods=['GET'])
 @login_required
 def upload_song():
-    return render_template('upload.html')
+    return render_template('music/upload.html')
 
 
 @product.route('/songs', methods=["GET"])
 def show_songs():
     songs = [i for i in Song.query.all()]
-    return render_template('songs.html', songs=songs)
+    return render_template('music/songs.html', songs=songs)
 
 
 @product.route('/play')
@@ -88,9 +88,8 @@ def play_song():
     song_id = request.args.get("id")
     song = Song.query.filter_by(id=song_id).first()
     if not song_id or not song:
-        return "Resource not found", 404
+        return "Resource not found.", 404
 
-    product_log.info(f"Attempting to queue: {song.path}")
-    add_to_queue(song.path)
-
-    return "Playing?"
+    callback_args = url_for('main.index')
+    openInThread(application_log, callback_args, song.path)
+    return redirect(url_for('product.play_song', id=0))
