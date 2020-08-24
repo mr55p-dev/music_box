@@ -1,6 +1,4 @@
 import os
-import rq
-from redis import Redis
 import logging
 
 from flask import Flask
@@ -37,7 +35,6 @@ def create_app():
     app.config["SECRET_KEY"] = env("SECRET_KEY")
     app.config["UPLOAD_FOLDER"] = os.path.join(os.getcwd(), 'flask_server/uploads/')
     app.config["ALLOWED_FILETYPES"] = {"mp3"}
-    app.config["REDIS_URL"] = env("REDIS_URL") or "redis://"
 
     # Initalise plugins
     application_log.setLevel(logging.DEBUG)
@@ -46,8 +43,6 @@ def create_app():
     login_manager.init_app(app)
     db.init_app(app)
     migrate.init_app(app, db)
-    app.redis = Redis.from_url(app.config["REDIS_URL"])
-    app.queue = rq.Queue(name="play_tasks", default_timeout=1000, connection=app.redis)
 
     # TEST
     from .database.models import User

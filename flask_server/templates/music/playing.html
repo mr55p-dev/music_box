@@ -2,50 +2,15 @@
 
 {% block content %}
 
-<script>
-    var id = "{{ job.id }}";
-
-    var pause = 0;
-    var play = 1;
-    var cancel = 0;
-
-    function playButton() {
-        sendData(0, 1, 0)
-    };
-
-    function pauseButton() {
-        sendData(1, 0, 0)
-    };
-
-    function cancelButton() {
-        sendData(0, 1, 1)
-    };
-
-    function sendData(pause, play, cancel) {
-        axios.post('/playing', {
-            id: id,
-            playing: play,
-            paused: pause,
-            cancelled: cancel
-        })
-        .then(function (response) {
-        console.log(response);
-        })
-        .catch(function (error) {
-        console.log(error);
-        });
-    }
-
-
-
-</script>
-
-    <button id="play" onclick="playButton(); console.log('Playing')">Play</button>
-    <button id="pause" onclick="pauseButton()">Pause</button>
-    <button id="cancel" onclick="cancelButton()">Cancel</button>
-
+<div class="bg-light h-100 text-dark">
+    <div class=container align-items-center">
+        <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-10 mx-auto text-center">
+                <h2 class="title">{{ song.name }}</h2>
+                <p class="lead">{{ song.artist }}</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock content %}
-
-
-
