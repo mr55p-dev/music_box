@@ -3,6 +3,7 @@ from time import sleep
 import subprocess
 import threading
 import logging
+from typing import Callable, Optional, Any
 
 
 mp_log = logging.getLogger('multiprocessing_log')
@@ -46,15 +47,21 @@ def playFile(callback, callback_args, filename):
     return
 
 
-# @trace
-def openInThread(callback, callbackargs, filename):
-    """
-    Allows the music to play in an asychronous way using ffplay,
-    with a callback to execute when the song is done.
-    """
-    mp_log.info("Called openInThread")
-    thread = threading.Thread(target=playFile, args=(callback, callbackargs, filename))
-    mp_log.info("Starting thread")
-    thread.start()
-    mp_log.info("Returning...")
-    return thread
+# def openInThread(
+#                  filename: str,
+#                  callback: Optional[Callable[[Optional[str]], Any]] = None,
+#                  callbackargs: Optional[Any] = None
+#                  ):
+#     """
+#     Opens a thread targeting the function `playFile` passing the
+#     argument `filename`. There is an optional callback function
+#     which can be passed as well.
+#         filename: str
+#         callback: Optional[Callable]
+#         callbackargs: Optional[Any]
+#     """
+#     thread = threading.Thread(target=playFile, args=(callback, callbackargs, filename))
+#     # mp_log.info("Starting thread")
+#     thread.start()
+#     # mp_log.info("Returning...")
+#     return thread
