@@ -1,6 +1,6 @@
 import os
 import logging
-from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app
+from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app, jsonify
 from flask.wrappers import Response
 from flask_server import db, th
 from flask_server.database.models import Song
@@ -88,9 +88,12 @@ def play_song() -> Response:
     if not song_id or not song:
         return "Resource not found.", 404
 
-    play = th.create(str(song.path))
+    product_log.info(f"Song path: {song.path}")
+    path = f"{song.path}"
+    play = th.create(str(path))
+    product_log.info(th)
     product_log.info(f"Started thread with id: {play}")
-    return redirect(url_for('product.playing_song', id=song.id))
+    return redirect(url_for('product.playing_song', id=song.id, th=play))
     # else:
     #     flash("Error starting task.")
     #     return redirect(url_for('product.show_songs'))
@@ -102,3 +105,9 @@ def playing_song() -> Response:
     song: Song = Song.query.filter_by(id=song_id).first()
 
     return render_template('music/playing.html', song=song)
+
+
+@product.route('/checkActiveThreads')
+def thread_check() -> Response:
+    product_log.info(th.threads)
+    return f"{th}"

@@ -1,9 +1,7 @@
 from subprocess import PIPE
 from time import sleep
 import subprocess
-import threading
 import logging
-from typing import Callable, Optional, Any
 
 
 mp_log = logging.getLogger('multiprocessing_log')
