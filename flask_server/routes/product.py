@@ -91,7 +91,7 @@ def play_song() -> Response:
 
     callback_args = url_for('main.index')
     openInThread(application_log, callback_args, song.path)
-    # Update last played 
+    # Update last played
     return redirect(url_for('product.playing_song', id=song.id))
 
 
