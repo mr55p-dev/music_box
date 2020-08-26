@@ -1,6 +1,7 @@
 import os
 import logging
-from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app, jsonify
+import socket
+from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app
 from flask.wrappers import Response
 from flask_server import db, th
 from flask_server.database.models import Song
@@ -89,10 +90,9 @@ def play_song() -> Response:
         return "Resource not found.", 404
 
     product_log.info(f"Song path: {song.path}")
-    path = f"{song.path}"
-    play = th.create(str(path))
-    product_log.info(th)
-    product_log.info(f"Started thread with id: {play}")
+    with socket.socket('AF_UNIX', 'SOCK_STREAM', 0) as s:
+        s.connect()
+
     return redirect(url_for('product.playing_song', id=song.id, th=play))
     # else:
     #     flash("Error starting task.")

@@ -63,17 +63,60 @@
 #     def destroy(self, threadID):
 #         return False
 
+import logging
 import os
+from pickle import UnpicklingError
 import socket
 import subprocess
 import pickle
 from subprocess import Popen
-import threading
-from time import sleep
-from typing import Any, AnyStr, Dict, Generator, List, Optional, Union
+from typing import Dict, Generator, List, Optional, Union
 
 
-class Item():
+def uid() -> Generator[int, None, None]:
+    """
+    Simple function to generate unique id's for each of the
+    _item instances which may be generated. Should not be
+    imported directly; use the `unique` generator defined
+    in this module.
+    Example:
+        unique_id1 = next(unique)
+        unique_id2 = next(unique)
+        etc...
+    """
+    i: int = 0
+    while True:
+        i += 1
+        yield i
+
+
+unique = uid()
+
+
+class Message():
+    """
+    Message class to be sent over a socket, subclassed by an Item if one was present.
+    Attributes:
+        message(str): The message text to be sent over the socket.
+    """
+    def __init__(self, message: str) -> None:
+        """
+        Create a message class which simply holds a message which can be set or read.
+        Args:
+            message(str): Message to be sent or recieved message
+        """
+        self._message = message
+
+    @property
+    def message(self) -> str:
+        return self._message
+
+    @message.setter
+    def message(self, message: str) -> None:
+        self._message = message
+
+
+class Item(Message):
     """
     Class to contain the properties of _queue items and manipulate them.
     Attributes:
@@ -88,7 +131,7 @@ class Item():
     _filename: str
     _complete: bool = False
 
-    def __init__(self, caller: int, filename: str, uid: int = next(unique)) -> None:
+    def __init__(self, caller: int, filename: str, message: str, uid: int = next(unique)) -> None:
         """
         args:
             caller(int): The user ID
@@ -97,6 +140,7 @@ class Item():
             uid(int): Optionally specify a custom ID (should be unique) else use the
                      generated one.
         """
+        super().__init__(message)
         self._uid = uid
         self._complete = False
         self._caller = caller
@@ -154,7 +198,7 @@ class Item():
         self._complete = compile
 
 
-class PlayQueue():«
+class PlayQueue():
     """
     Class to handle the requests to play music sent to the box
     from the Flask web server. Should be able to handle queueing,
@@ -176,6 +220,7 @@ class PlayQueue():«
         return [i["file"] for i in self._queue]
 
     def _clean(self) -> None:
+        self.queue = [i for i in self.queue if not i.complete]
 
     @property
     def queue(self) -> List[Item]:
@@ -244,26 +289,6 @@ class PlayQueue():«
         self.queue = []
 
 
-def uid() -> Generator[int, None, None]:
-    """
-    Simple function to generate unique id's for each of the
-    _item instances which may be generated. Should not be
-    imported directly; use the `unique` generator defined
-    in this module.
-    Example:
-        unique_id1 = next(unique)
-        unique_id2 = next(unique)
-        etc...
-    """
-    i: int = 0
-    while True:
-        i += 1
-        yield i
-
-
-unique = uid()
-
-
 def play(path: str) -> Popen:
     """Open a process which calls `ffplay` on the path provided"""
     proc = subprocess.Popen(
@@ -283,17 +308,56 @@ if __name__ == "__main__":
 
     # Set up vars
     qh = PlayQueue()
-    playing = None
+    playing = Optional[subprocess.Popen]
+    logging.basicConfig("logs/listener.log")
+    log = logging.getLogger('listener')
 
     while True:
+        # Update current song.
         current_song = qh.current
         if current_song and not playing:
+            # If there is something to play, play it (potentially use playing.poll())
             playing = play(current_song)
 
+        # As long as there isnt, accept incoming requests.
+        # Figure out a good message size. Load the recieved object.
         conn, address = soc.accept()
-        # Figure out a good message size
         data, sender = soc.recvmsg(4096)
-        # if data
+        try:
+            recv = pickle.loads(data)
+        except UnpicklingError:
+            log.error("Could not unpickle response, check that data has been created correctly.")
+            recv = None
+
+        # Now validate if the recieved object is of the correct type
+        if isinstance(recv, Item):
+            message = recv.message
+
+            # Logic for if a song to be played has been sent
+        elif isinstance(recv, Message):
+            message = recv.message
+            # Logic for play/pause
+        else:
+            log.error(f"Recieved a response of type {type(recv)} which is not valid.")
+            log.error("Only types Message and Item can be sent.")
+            pass
+
+
+def messageLogic(message: str, qh: Optional[PlayQueue] = None, item: Optional[Item] = None):
+    if message == 'play':
+        qh.append(item)
+        return 'play'
+    elif message == 'stop':
+
+        return 'stop'
+    elif message == 'pause':
+        return 'pause'
+    elif message == 'fetch':
+        return 'fetch'
+    else:
+        log.info(f"Invalid message: {message}")
+        return None
+
 
 """
 Need to find a way to set a fixed sensible message size
