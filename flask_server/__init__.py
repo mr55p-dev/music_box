@@ -1,3 +1,4 @@
+from flask_server.utils.helperClasses import ThreadHandler
 import os
 import logging
 
@@ -12,6 +13,7 @@ migrate = Migrate()
 login_manager = LoginManager()
 application_log = logging.getLogger()
 env = os.getenv
+th = ThreadHandler()
 
 
 def create_app():

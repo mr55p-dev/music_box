@@ -1,10 +1,10 @@
 import os
 import logging
+import socket
 from flask import Blueprint, render_template, flash, request, redirect, url_for, current_app
 from flask.wrappers import Response
-from flask_server import application_log, db
+from flask_server import db, th
 from flask_server.database.models import Song
-from flask_server.utils.audioManager import openInThread
 from werkzeug.utils import secure_filename
 from typing import List, TextIO, Union
 
@@ -89,10 +89,14 @@ def play_song() -> Response:
     if not song_id or not song:
         return "Resource not found.", 404
 
-    callback_args = url_for('main.index')
-    openInThread(application_log, callback_args, song.path)
-    # Update last played
-    return redirect(url_for('product.playing_song', id=song.id))
+    product_log.info(f"Song path: {song.path}")
+    with socket.socket('AF_UNIX', 'SOCK_STREAM', 0) as s:
+        s.connect()
+
+    return redirect(url_for('product.playing_song', id=song.id, th=play))
+    # else:
+    #     flash("Error starting task.")
+    #     return redirect(url_for('product.show_songs'))
 
 
 @product.route('/playing')
@@ -101,3 +105,9 @@ def playing_song() -> Response:
     song: Song = Song.query.filter_by(id=song_id).first()
 
     return render_template('music/playing.html', song=song)
+
+
+@product.route('/checkActiveThreads')
+def thread_check() -> Response:
+    product_log.info(th.threads)
+    return f"{th}"
