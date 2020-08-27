@@ -29,3 +29,4 @@ This project is a flask server and Python-written client designed to be hosted o
  - Flash messages on auth pages again
  - Add a /playing/ route which can communicate with the redis db to get current song progress (this page needs js) and controls.
  - Change worker to communicate back to redis (look into ffplay docs).
+ - Rewrite `songs.html` to conform with `signup.html`

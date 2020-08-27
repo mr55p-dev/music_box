@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.songs.css') }}" />
+{% endblock head %}
+
+{% block content %}
+    <div class="bg-light h-100 text-dark">
+        <div class="container align-items-center">
+            <div class="row">
+                {% for song in songs %}
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 text-center">
+                        <div class="card m-2">
+                            <div class="card-body">
+                                <a class="link" data-toggle="modal" data-target="#modal{{song.id}}"><h5 class="card-title card-hide-overflow">{{ song.name }}</h5></a>
+                                <h6 class="card-subtitle card-hide-overflow">{{ song.artist }}</h6>
+                                <p class="card-text card-hide-overflow">{{ song.description }}</p>
+                                <!-- make this a bootstrap icon -->
+                                <a href="{{ url_for('product.play_song', id=song.id) }}" class="btn btn-primary btn-block">Play</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% for song in songs %}
+    <div class="modal fade" id="modal{{ song.id }}" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">{{ song.name }}</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">{{ song.description }}</div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Close</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    {% endfor %}
+{% endblock content %}

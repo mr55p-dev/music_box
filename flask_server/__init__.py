@@ -1,6 +1,4 @@
 import os
-import rq
-from redis import Redis
 import logging
 
 from flask import Flask
@@ -29,7 +27,6 @@ def create_app():
     ]
 
     # This is sloppy, change it soon.
-    global db_url
     db_url = f'postgresql+psycopg2://{db_info[0]}:{db_info[1]}@{db_info[2]}/{db_info[3]}'
 
     # Configure the application variables for SQLAlchemy
@@ -37,7 +34,7 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config["SECRET_KEY"] = env("SECRET_KEY")
     app.config["UPLOAD_FOLDER"] = os.path.join(os.getcwd(), 'flask_server/uploads/')
-    app.config["REDIS_URL"] = env("REDIS_URL") or "redis://"
+    app.config["ALLOWED_FILETYPES"] = {"mp3"}
 
     # Initalise plugins
     application_log.setLevel(logging.DEBUG)
@@ -46,12 +43,8 @@ def create_app():
     login_manager.init_app(app)
     db.init_app(app)
     migrate.init_app(app, db)
-    app.redis = Redis.from_url(app.config["REDIS_URL"])
-    app.queue = rq.Queue(name="play_tasks", default_timeout=1000, connection=app.redis)
 
     # TEST
-    application_log.warning(f'DB_URL: {db_url}')
-
     from .database.models import User
 
     @login_manager.user_loader
@@ -62,7 +55,7 @@ def create_app():
     from .routes.auth import auth as auth_blueprint
     from .routes.main import main as main_blueprint
     from .routes.product import product as prod_blueprint
-    from .database.psql import psql as psql_blueprint
+    from .utils.psql import psql as psql_blueprint
 
     app.register_blueprint(auth_blueprint)
     app.register_blueprint(main_blueprint)
