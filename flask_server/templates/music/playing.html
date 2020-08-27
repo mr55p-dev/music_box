@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="bg-light h-100 text-dark">
+    <div class=container align-items-center">
+        <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-10 mx-auto text-center">
+                <h2 class="title">{{ song.name }}</h2>
+                <p class="lead">{{ song.artist }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
